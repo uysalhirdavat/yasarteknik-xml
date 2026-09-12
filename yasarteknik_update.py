@@ -368,3 +368,38 @@ print("")
 print("====================================")
 print("TEK ÜRÜN DETAY TESTİ BAŞARILI")
 print("====================================")
+print("")
+print("====================================")
+print("STOK HTML TESTİ")
+print("====================================")
+
+stok_bulundu = False
+
+for i, hucre in enumerate(ilk_satir.find_all("td"), start=1):
+
+    html = str(hucre)
+
+    html_lower = html.lower()
+
+    if (
+        "1ab394" in html_lower
+        or "stok" in html_lower
+        or "background" in html_lower
+        or "badge" in html_lower
+        or "fa-circle" in html_lower
+    ):
+        print("")
+        print("STOK OLABİLECEK HÜCRE:", i)
+        print(html)
+        stok_bulundu = True
+
+if not stok_bulundu:
+    print("")
+    print("Stok hücresi otomatik bulunamadı.")
+    print("İlk ürünün TÜM HTML satırı:")
+    print(str(ilk_satir))
+
+print("")
+print("====================================")
+print("STOK HTML TESTİ BİTTİ")
+print("====================================")
