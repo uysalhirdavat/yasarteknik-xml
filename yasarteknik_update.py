@@ -18,11 +18,10 @@ session.headers.update({
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/152.0.0.0 Safari/537.36"
     ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
 })
 
-# Önce giriş sayfasını aç ve ASP oturumunu oluştur
+# Önce giriş sayfasını aç, oturum çerezi oluşsun
 ilk = session.get(
     f"{BASE_URL}/Login.asp",
     timeout=30
@@ -31,9 +30,7 @@ ilk = session.get(
 ilk.raise_for_status()
 
 print("Ilk GET:", ilk.status_code)
-print("Ilk cookie sayisi:", len(session.cookies))
 
-# Yaşar Teknik gerçek giriş formu
 login_data = {
     "KullaniciAdi": MUSTERI_KODU,
     "KullaniciKodu": KULLANICI_KODU,
@@ -41,29 +38,36 @@ login_data = {
 }
 
 login_headers = {
-    "Referer": f"{BASE_URL}/Login.asp",
+    "Accept": "*/*",
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
     "Origin": BASE_URL,
-    "X-Requested-With": "XMLHttpRequest",
-    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
+    "Referer": f"{BASE_URL}/Login.asp",
+    "X-Requested-With": "XMLHttpRequest"
 }
 
-# Gerçek AJAX giriş adresi
+# Yaşar Teknik'in gerçek AJAX giriş adresi
 login = session.post(
     f"{BASE_URL}/ajax/Login.asp",
     data=login_data,
     headers=login_headers,
     timeout=30,
-    allow_redirects=True
+    allow_redirects=False
 )
 
-login.raise_for_status()
-
 print("Login HTTP:", login.status_code)
-print("Login son URL:", login.url)
 print("Login cevap:", repr(login.text.strip()))
-print("Login sonrasi cookie sayisi:", len(session.cookies))
+print("Yonlendirme:", login.headers.get("Location"))
 
-# Giriş başarılı mı kontrol et
+# Başarılı girişte sunucu tam olarak "1" döndürüyor
+if login.status_code != 200 or login.text.strip() != "1":
+    raise Exception(
+        "Yaşar Teknik giriş başarısız. "
+        "GitHub Secrets içindeki Müşteri Kodu / Kullanıcı Kodu / Şifreyi kontrol edin."
+    )
+
+print("AJAX GIRIS BASARILI")
+
+# Oturum gerçekten açıldı mı kontrol et
 kontrol = session.get(
     f"{BASE_URL}/Default.asp",
     timeout=30,
@@ -88,10 +92,8 @@ basarili = (
 )
 
 if not basarili:
-    print("Kontrol ilk 500 karakter:")
-    print(kontrol.text[:500].replace("\n", " "))
-    raise Exception("Yaşar Teknik girişi doğrulanamadı!")
+    raise Exception("Giriş cevabı 1 geldi fakat oturum doğrulanamadı!")
 
 print("====================================")
-print("YAŞAR TEKNİK GİRİŞİ BAŞARILI")
+print("YAŞAR TEKNİK GİRİŞİ TAM BAŞARILI")
 print("====================================")
