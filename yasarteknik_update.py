@@ -45,13 +45,48 @@ def temiz_metin(deger):
         return ""
     return " ".join(str(deger).replace("\xa0", " ").split()).strip()
 
+def xml_gecerli_karakterleri_temizle(deger):
+    if deger is None:
+        return ""
+
+    metin = str(deger)
+
+    return "".join(
+        karakter
+        for karakter in metin
+        if (
+            karakter == "\t"
+            or karakter == "\n"
+            or karakter == "\r"
+            or 0x20 <= ord(karakter) <= 0xD7FF
+            or 0xE000 <= ord(karakter) <= 0xFFFD
+            or 0x10000 <= ord(karakter) <= 0x10FFFF
+        )
+    )
+
+
 def xml_metin(deger):
-    return escape(temiz_metin(deger), {'"': "&quot;", "'": "&apos;"})
+    temiz = xml_gecerli_karakterleri_temizle(
+        temiz_metin(deger)
+    )
+
+    return escape(
+        temiz,
+        {
+            '"': "&quot;",
+            "'": "&apos;"
+        }
+    )
+
 
 def cdata_temizle(deger):
-    if not deger:
-        return ""
-    return str(deger).replace("]]>", "]]]]><![CDATA[>")
+    temiz = xml_gecerli_karakterleri_temizle(deger)
+
+    return temiz.replace(
+        "]]>",
+        "]]]]><![CDATA[>"
+    )
+
 
 def turk_fiyat_to_xml(deger):
     if not deger:
