@@ -1,0 +1,27 @@
+name: Yasar Teknik XML
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-login:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Depoyu al
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Requests yukle
+        run: pip install requests
+
+      - name: Yasar Teknik giris testi
+        env:
+          YASAR_KULLANICI_ADI: ${{ secrets.YASAR_KULLANICI_ADI }}
+          YASAR_KULLANICI_KODU: ${{ secrets.YASAR_KULLANICI_KODU }}
+          YASAR_SIFRE: ${{ secrets.YASAR_SIFRE }}
+        run: python yasarteknik_update.py
