@@ -46,7 +46,10 @@ jobs:
 
           if git diff --cached --quiet; then
             echo "Degisiklik yok."
-          else
-            git commit -m "Yasar Teknik parcali XML guncelleme"
-            git push
+            exit 0
           fi
+
+          git commit -m "Yasar Teknik parcali XML guncelleme"
+
+          git pull --rebase origin main
+          git push origin main
