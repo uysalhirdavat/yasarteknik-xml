@@ -2,6 +2,8 @@ name: Yasar Teknik XML
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 */3 * * *"
 
 concurrency:
   group: yasarteknik-xml
@@ -57,8 +59,6 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Yasar Teknik XML parcali guncelle
-        id: yasar_python
-        continue-on-error: true
         env:
           YASAR_KULLANICI_ADI: ${{ secrets.YASAR_KULLANICI_ADI }}
           YASAR_KULLANICI_KODU: ${{ secrets.YASAR_KULLANICI_KODU }}
@@ -67,7 +67,6 @@ jobs:
         run: python yasarteknik_update.py
 
       - name: XML ve ilerlemeyi GitHub'a kaydet
-        if: always()
         shell: bash
         run: |
           set -e
@@ -110,18 +109,8 @@ jobs:
 
           if git diff --cached --quiet; then
             echo "Degisiklik yok."
-          else
-            git commit -m "Yasar Teknik parcali XML guncelleme"
-            git push origin main
+            exit 0
           fi
 
-      - name: Python sonucunu kontrol et
-        if: always()
-        shell: bash
-        run: |
-          if [ "${{ steps.yasar_python.outcome }}" != "success" ]; then
-            echo "Python islemi hata verdi. Partial ilerleme GitHub'a kaydedildi."
-            exit 1
-          fi
-
-          echo "Python islemi basarili."
+          git commit -m "Yasar Teknik parcali XML guncelleme"
+          git push origin main
