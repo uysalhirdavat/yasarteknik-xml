@@ -3,9 +3,14 @@ name: Yasar Teknik XML
 on:
   workflow_dispatch:
 
+concurrency:
+  group: yasarteknik-xml
+  cancel-in-progress: false
+
 jobs:
   update-xml:
     runs-on: ubuntu-latest
+    timeout-minutes: 55
 
     permissions:
       contents: write
@@ -13,6 +18,8 @@ jobs:
     steps:
       - name: Depoyu al
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Python kur
         uses: actions/setup-python@v5
@@ -22,23 +29,24 @@ jobs:
       - name: Gerekli kutuphaneleri yukle
         run: pip install requests beautifulsoup4
 
-      - name: Yasar Teknik XML olustur
+      - name: Yasar Teknik XML parcali guncelle
         env:
           YASAR_KULLANICI_ADI: ${{ secrets.YASAR_KULLANICI_ADI }}
           YASAR_KULLANICI_KODU: ${{ secrets.YASAR_KULLANICI_KODU }}
           YASAR_SIFRE: ${{ secrets.YASAR_SIFRE }}
+          YASAR_CHUNK_SIZE: "1200"
         run: python yasarteknik_update.py
 
-      - name: XML degisikligini GitHub'a kaydet
+      - name: XML ve ilerlemeyi GitHub'a kaydet
         run: |
           git config user.name "yasarteknik-bot"
           git config user.email "actions@github.com"
 
-          git add yasarteknik.xml
+          git add -A -- yasarteknik.xml barkod_map.json yasarteknik_partial.json
 
           if git diff --cached --quiet; then
-            echo "XML'de degisiklik yok."
+            echo "Degisiklik yok."
           else
-            git commit -m "Yasar Teknik XML otomatik guncelleme"
+            git commit -m "Yasar Teknik parcali XML guncelleme"
             git push
           fi
