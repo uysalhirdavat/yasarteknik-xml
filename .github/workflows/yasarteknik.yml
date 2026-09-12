@@ -16,8 +16,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Requests yukle
-        run: pip install requests
+      - name: Gerekli kutuphaneleri yukle
+        run: pip install requests beautifulsoup4
 
       - name: Yasar Teknik giris testi
         env:
