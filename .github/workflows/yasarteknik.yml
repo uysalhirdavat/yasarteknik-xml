@@ -19,7 +19,34 @@ jobs:
       - name: Depoyu al
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
+
+      - name: En guncel main dalini al
+        shell: bash
+        run: |
+          set -e
+
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/main
+
+          echo "Calisma baslangic commit:"
+          git log -1 --oneline
+
+          if [ -f yasarteknik_partial.json ]; then
+            echo "Partial dosyasi bulundu."
+            python - <<'PY'
+          import json
+
+          with open("yasarteknik_partial.json", "r", encoding="utf-8") as f:
+              veri = json.load(f)
+
+          print("Baslangictaki hazir urun sayisi:", len(veri))
+          PY
+          else
+            echo "Partial dosyasi yok."
+          fi
 
       - name: Python kur
         uses: actions/setup-python@v5
@@ -60,11 +87,12 @@ jobs:
           fi
 
           git fetch origin main
-
           git reset --hard origin/main
 
           if [ -f /tmp/yasar-save/yasarteknik_partial.json ]; then
             cp /tmp/yasar-save/yasarteknik_partial.json yasarteknik_partial.json
+          else
+            rm -f yasarteknik_partial.json
           fi
 
           if [ -f /tmp/yasar-save/barkod_map.json ]; then
