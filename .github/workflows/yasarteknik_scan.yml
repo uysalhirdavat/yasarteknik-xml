@@ -1,0 +1,27 @@
+name: Yasar Teknik Katalog Tarama
+
+on:
+  workflow_dispatch:
+
+jobs:
+  scan-catalog:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Depoyu al
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Gerekli kutuphaneleri yukle
+        run: pip install requests beautifulsoup4
+
+      - name: Yasar Teknik katalog taramasini yap
+        env:
+          YASAR_KULLANICI_ADI: ${{ secrets.YASAR_KULLANICI_ADI }}
+          YASAR_KULLANICI_KODU: ${{ secrets.YASAR_KULLANICI_KODU }}
+          YASAR_SIFRE: ${{ secrets.YASAR_SIFRE }}
+        run: python yasarteknik_scan.py
