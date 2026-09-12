@@ -1,21 +1,1855 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <item>
-        <id>195.14.KH04</id>
-        <code>195.14.KH04</code>
-        <label>YUMA KAPI HİDROLİK YM-714 NO:4</label>
-        <stock>100</stock>
-        <details><![CDATA[
-        <h2>YUMA KAPI HİDROLİK YM-714 NO:4</h2>
-        <p>Kapıların kontrollü şekilde açılıp kapanmasını sağlayan kapı hidroliği.</p>
-        ]]></details>
-        <currency>TRL</currency>
-        <price1>775.00</price1>
-        <tax>20</tax>
-        <barcode>uyl12092026999001</barcode>
-        <brand>YUMA</brand>
-        <mainCategory>Kapı Aksesuarları</mainCategory>
-        <category>Kapı Hidrolikleri</category>
-        <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/19514kh04-.71c66c.jpg</picture1>
-    </item>
+  <item>
+    <id>195.14.KH04</id>
+    <code>195.14.KH04</code>
+    <label>YUMA KAPI HİDROLİK YM-714 NO:4</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA KAPI HİDROLİK YM-714 NO:4</h2>
+<ul>
+<li>1. Kalite</li>
+<li>Yıllarca dayanabilen aksamlar.</li>
+<li>Üst derece güvenlidir.</li>
+<li>Korozyona eskimeye dayanıklıdır.</li>
+<li>Uzun ömürlüdür.</li>
+<li>Kapı arkasına monte edilerek, kapının açılmasına, kapanmasına veya istenilen hızda hareket etmesine olanak tanıyan mekanizmalardır.</li>
+<li>Kapı hidroliği, kapının üst kısmına veya yanına monte edilir. Montaj talimatlarına uygun olarak doğru konuma yerleştirilmelidir.</li>
+<li>Üstten montajlı hidrolikler, kapının üst kısmına monte edilirken, yan montajlı hidrolikler kapının yan tarafına monte edilir.</li>
+<li>Hidroliği sabitlemek için doğru vidaları ve delikleri kullanarak sağlam bir montaj yapın.</li>
+<li>Kapı hidroliğinin kapanma hızını ayarlamak için genellikle bir veya iki ayar vidası bulunur.</li>
+<li>Bu vidaları kullanarak kapının kapanma hızını kontrol edebilirsiniz.</li>
+<li>Kapanma hızını yavaşlatmak veya hızlandırmak için vidaları saat yönünde veya saat yönünün tersine çevirin.</li>
+<li>Geri çekme kuvveti, kapının açılma hızını kontrol eder ve kapının çok hızlı açılmasını engeller.</li>
+<li>Bu, özellikle rüzgarlı dış mekan kapıları için önemlidir.</li>
+<li>Bu ayar, kapının istenen açılma direncine göre ayarlanabilir.</li>
+<li>Kapı hidroliğinin düzgün çalışması için düzenli olarak bakım yapılmalıdır.</li>
+<li>Mekanizmayı temizlemek ve yağlamak, uzun ömürlü kullanım sağlar.</li>
+<li>Vidaların ve montaj parçalarının sıkılığını düzenli olarak kontrol edin ve gerektiğinde sıkın.</li>
+<li>Kapıyı hidrolik mekanizmaya zarar vermemek için yavaş ve kontrollü bir şekilde açıp kapayın.</li>
+<li>Kapının sert bir şekilde itilmesi veya çekilmesi, hidrolik mekanizmasına zarar verebilir.</li>
+<li>Kapı hidroliğini, üreticinin önerdiği kapı türü ve ağırlığı için kullanın.</li>
+<li>Yanlış kapı türü veya ağırlık, hidroliğin düzgün çalışmamasına neden olabilir.</li>
+<li>İTHAL ÜRÜN </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>775.00</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999001</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/19514kh04-.71c66c.jpg</picture1>
+  </item>
+  <item>
+    <id>195.15.A749</id>
+    <code>195.15.A749</code>
+    <label>YUMA ALARMLI MOTORBİSİKLET KİLİDİ YM-749-A</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA ALARMLI MOTORBİSİKLET KİLİDİ YM-749-A</h2>
+<ul>
+<li>110 DB Alarmlı Disk Kilidi</li>
+<li>Hatırlatma Kablolu</li>
+<li>110 Db yüksek ses seviyesine sahiptir.</li>
+<li>Su geçirmez yapıya sahiptir.</li>
+<li>Çelik gövdesi ile kırılma ve çatlamaya dayanıklıdır.</li>
+<li>Alyan anahtarı set içinde mevcuttur.</li>
+<li>Yedek anahtarı mevcuttur.</li>
+<li>Kullanmadan önce ilk olarak alyan anahtarı ve süngeri çıkarın.</li>
+<li>Anahtar gövdesini içe doğru bastırın, 'bip sesi' duyacaksınız, disk kilidi kilitlenecek ve alarm sistemi başlayacak.</li>
+<li>Yaklaşık 5 saniye sonra titretince, 'bip bip bip' şeklinde üç ses duyacaksınız, bu bir uyarı sesidir.</li>
+<li>Titreme tekrar başladığında, kilit her seferinde 110 desibel ses düzeyinde ses çıkarır, her alarm 10 saniye sürer.</li>
+<li>Alarmı durdurmak için anahtar ile kilidi açın.</li>
+<li>Kilidi motorda ya da çantada taşırken alarmın devreye girmemesi için kilitlemeyin.</li>
+<li>Hatırlatma kablosunu kullanarak kilitli şekilde hareket etmeyi önlemiş olursunuz.</li>
+<li>Alyan anahtar ile kilidin arkasında bulunan vidaları sökerek pil değişimi yapabilirsiniz.</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>651.00</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999002</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/img_093.9e9cdd.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/atilla-photoroom-.28d26b.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/atilla-photoroom-.936182.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/vbvbcv.bac4c4.jpg</picture4>
+  </item>
+  <item>
+    <id>195.15.Y732</id>
+    <code>195.15.Y732</code>
+    <label>YMK BİSİKLET KİLİDİ EKO BOY:65 CM ÇAP:8 MM YMK-732</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YMK BİSİKLET KİLİDİ EKO BOY:65 CM ÇAP:8 MM YMK-732</h2>
+<ul>
+<li>YMK BİSİKLET KİLİDİ EKO</li>
+<li>BOY:65 CM</li>
+<li>ÇAP:8 MM </li>
+<li>Ymk bisiklet kilidi çelik halat üzerine pvc kaplamadır.</li>
+<li>PVC kaplamalı bisiklet kilitleri, bisikletlerin güvenliğini sağlamak için kullanılan, dış yüzeyi PVC (Polivinil Klorür) ile kaplanmış kilitlerdir.</li>
+<li>PVC kaplama, kilidin hava koşullarına dayanıklılığını artırır ve bisikletin çerçevesine zarar vermesini önler.</li>
+<li>İşte PVC kaplamalı bisiklet kilitlerinin özellikleri ve kullanımı hakkında detaylı bilgi</li>
+<li>Malzeme ve Yapı:</li>
+<li>Çelik Gövde: Kilidin iç kısmı genellikle yüksek mukavemetli çelikten yapılmıştır, bu da kilidin kesilme ve kırılma girişimlerine karşı dayanıklı olmasını sağlar.</li>
+<li>PVC Kaplama: Dış yüzeyi kaplayan PVC malzeme, kilidin hava koşullarına karşı korumasını sağlar ve bisikletin boyasına zarar vermesini engeller.</li>
+<li>Anahtarlı Kilit: Anahtarla açılıp kapanan modeller yaygındır. Genellikle yüksek güvenlik sağlayan, zor açılan anahtarlı mekanizmalara sahiptir.</li>
+<li>Esnek kablo yapısı sayesinde kolayca taşınabilir ve bisikletin farklı kısımlarına rahatça bağlanabilir.</li>
+<li>Daha sağlam ve güvenli olup, bisikletin sabit bir noktaya güvenli bir şekilde kilitlenmesini sağlar.</li>
+<li>PVC kaplama, kilidin çizilmesini ve bisikletin zarar görmesini engeller.</li>
+<li>Bisikletler: Her türlü bisikletin güvenliğini sağlamak için uygundur.</li>
+<li>Motosikletler: Küçük motosikletler veya scooter'lar için de kullanılabilir.</li>
+<li>Diğer Eşyalar: Bahçe mobilyaları, çim biçme makineleri gibi diğer dış mekan eşyalarının güvenliğini sağlamak için de kullanılabilir.</li>
+<li>Paslanma ve Aşınmayı Önleyin: Kilidi düzenli olarak kontrol edin ve paslanma veya aşınma belirtileri olup olmadığını gözden geçirin.</li>
+<li>PVC kaplama, bu tür sorunları büyük ölçüde önlese de, düzenli bakım önemlidir.</li>
+<li>Yağlama: Kilit mekanizmasını düzenli olarak yağlayarak sorunsuz çalışmasını sağlayın.</li>
+<li>İTHAL ÜRÜN </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>60.45</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999003</barcode>
+    <brand>YMK</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/19515y732-.b72488.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/19515y732-.00d0be.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/yuma.762eac.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/576768652.548e4f.jpg</picture4>
+  </item>
+  <item>
+    <id>195.15.Y733</id>
+    <code>195.15.Y733</code>
+    <label>YUMA BİSİKLET KİLİDİ 12X65 CM YM-733</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA BİSİKLET KİLİDİ 12X65 CM YM-733</h2>
+<ul>
+<li>YMK BİSİKLET KİLİDİ EKO</li>
+<li>BOY:65 CM</li>
+<li>ÇAP:12 MM </li>
+<li>Ymk bisiklet kilidi çelik halat üzerine pvc kaplamadır.</li>
+<li>PVC kaplamalı bisiklet kilitleri, bisikletlerin güvenliğini sağlamak için kullanılan, dış yüzeyi PVC (Polivinil Klorür) ile kaplanmış kilitlerdir.</li>
+<li>PVC kaplama, kilidin hava koşullarına dayanıklılığını artırır ve bisikletin çerçevesine zarar vermesini önler.</li>
+<li>İşte PVC kaplamalı bisiklet kilitlerinin özellikleri ve kullanımı hakkında detaylı bilgi</li>
+<li>Malzeme ve Yapı:</li>
+<li>Çelik Gövde: Kilidin iç kısmı genellikle yüksek mukavemetli çelikten yapılmıştır, bu da kilidin kesilme ve kırılma girişimlerine karşı dayanıklı olmasını sağlar.</li>
+<li>PVC Kaplama: Dış yüzeyi kaplayan PVC malzeme, kilidin hava koşullarına karşı korumasını sağlar ve bisikletin boyasına zarar vermesini engeller.</li>
+<li>Anahtarlı Kilit: Anahtarla açılıp kapanan modeller yaygındır. Genellikle yüksek güvenlik sağlayan, zor açılan anahtarlı mekanizmalara sahiptir.</li>
+<li>Esnek kablo yapısı sayesinde kolayca taşınabilir ve bisikletin farklı kısımlarına rahatça bağlanabilir.</li>
+<li>Daha sağlam ve güvenli olup, bisikletin sabit bir noktaya güvenli bir şekilde kilitlenmesini sağlar.</li>
+<li>PVC kaplama, kilidin çizilmesini ve bisikletin zarar görmesini engeller.</li>
+<li>Bisikletler: Her türlü bisikletin güvenliğini sağlamak için uygundur.</li>
+<li>Motosikletler: Küçük motosikletler veya scooter'lar için de kullanılabilir.</li>
+<li>Diğer Eşyalar: Bahçe mobilyaları, çim biçme makineleri gibi diğer dış mekan eşyalarının güvenliğini sağlamak için de kullanılabilir.</li>
+<li>Paslanma ve Aşınmayı Önleyin: Kilidi düzenli olarak kontrol edin ve paslanma veya aşınma belirtileri olup olmadığını gözden geçirin.</li>
+<li>PVC kaplama, bu tür sorunları büyük ölçüde önlese de, düzenli bakım önemlidir.</li>
+<li>Yağlama: Kilit mekanizmasını düzenli olarak yağlayarak sorunsuz çalışmasını sağlayın.</li>
+<li>İTHAL ÜRÜN </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>78.12</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999004</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/19515y733-.d2c6c7.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/yuma-733-bisiklet-kilidi-12-mm-cap-65-cm__033075254304876.6dc32e.webp</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/2_org_zoom-.d2fecf.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/yuma-733-bisiklet-kilidi-12-mm-cap-65-cm__033075254304876.78c8c5.webp</picture4>
+  </item>
+  <item>
+    <id>195.15.Y734</id>
+    <code>195.15.Y734</code>
+    <label>YUMA BİSİKLET KİLİDİ 12X150 CM YM-734</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA BİSİKLET KİLİDİ 12X150 CM YM-734</h2>
+<ul>
+<li>YMK BİSİKLET KİLİDİ EKO</li>
+<li>BOY:150 CM</li>
+<li>ÇAP:12 MM </li>
+<li>Ymk bisiklet kilidi çelik halat üzerine pvc kaplamadır.</li>
+<li>PVC kaplamalı bisiklet kilitleri, bisikletlerin güvenliğini sağlamak için kullanılan, dış yüzeyi PVC (Polivinil Klorür) ile kaplanmış kilitlerdir.</li>
+<li>PVC kaplama, kilidin hava koşullarına dayanıklılığını artırır ve bisikletin çerçevesine zarar vermesini önler.</li>
+<li>İşte PVC kaplamalı bisiklet kilitlerinin özellikleri ve kullanımı hakkında detaylı bilgi</li>
+<li>Malzeme ve Yapı:</li>
+<li>Çelik Gövde: Kilidin iç kısmı genellikle yüksek mukavemetli çelikten yapılmıştır, bu da kilidin kesilme ve kırılma girişimlerine karşı dayanıklı olmasını sağlar.</li>
+<li>PVC Kaplama: Dış yüzeyi kaplayan PVC malzeme, kilidin hava koşullarına karşı korumasını sağlar ve bisikletin boyasına zarar vermesini engeller.</li>
+<li>Anahtarlı Kilit: Anahtarla açılıp kapanan modeller yaygındır. Genellikle yüksek güvenlik sağlayan, zor açılan anahtarlı mekanizmalara sahiptir.</li>
+<li>Esnek kablo yapısı sayesinde kolayca taşınabilir ve bisikletin farklı kısımlarına rahatça bağlanabilir.</li>
+<li>Daha sağlam ve güvenli olup, bisikletin sabit bir noktaya güvenli bir şekilde kilitlenmesini sağlar.</li>
+<li>PVC kaplama, kilidin çizilmesini ve bisikletin zarar görmesini engeller.</li>
+<li>Bisikletler: Her türlü bisikletin güvenliğini sağlamak için uygundur.</li>
+<li>Motosikletler: Küçük motosikletler veya scooter'lar için de kullanılabilir.</li>
+<li>Diğer Eşyalar: Bahçe mobilyaları, çim biçme makineleri gibi diğer dış mekan eşyalarının güvenliğini sağlamak için de kullanılabilir.</li>
+<li>Paslanma ve Aşınmayı Önleyin: Kilidi düzenli olarak kontrol edin ve paslanma veya aşınma belirtileri olup olmadığını gözden geçirin.</li>
+<li>PVC kaplama, bu tür sorunları büyük ölçüde önlese de, düzenli bakım önemlidir.</li>
+<li>Yağlama: Kilit mekanizmasını düzenli olarak yağlayarak sorunsuz çalışmasını sağlayın.</li>
+<li>İTHAL ÜRÜN </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>150.04</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999005</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/19515y734-.9233dd.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/576768652.84a821.jpg</picture2>
+  </item>
+  <item>
+    <id>195.15.Y735</id>
+    <code>195.15.Y735</code>
+    <label>YUMA MOTORBİSİKLET KİLİDİ 20X120 CM YM-735</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA MOTORBİSİKLET KİLİDİ 20X120 CM YM-735</h2>
+<ul>
+<li>YMK BİSİKLET KİLİDİ EKO</li>
+<li>BOY:120 CM</li>
+<li>ÇAP:20 MM </li>
+<li>Ymk bisiklet kilidi çelik halat üzerine pvc kaplamadır.</li>
+<li>PVC kaplamalı bisiklet kilitleri, bisikletlerin güvenliğini sağlamak için kullanılan, dış yüzeyi PVC (Polivinil Klorür) ile kaplanmış kilitlerdir.</li>
+<li>PVC kaplama, kilidin hava koşullarına dayanıklılığını artırır ve bisikletin çerçevesine zarar vermesini önler.</li>
+<li>İşte PVC kaplamalı bisiklet kilitlerinin özellikleri ve kullanımı hakkında detaylı bilgi</li>
+<li>Malzeme ve Yapı:</li>
+<li>Çelik Gövde: Kilidin iç kısmı genellikle yüksek mukavemetli çelikten yapılmıştır, bu da kilidin kesilme ve kırılma girişimlerine karşı dayanıklı olmasını sağlar.</li>
+<li>PVC Kaplama: Dış yüzeyi kaplayan PVC malzeme, kilidin hava koşullarına karşı korumasını sağlar ve bisikletin boyasına zarar vermesini engeller.</li>
+<li>Anahtarlı Kilit: Anahtarla açılıp kapanan modeller yaygındır. Genellikle yüksek güvenlik sağlayan, zor açılan anahtarlı mekanizmalara sahiptir.</li>
+<li>Esnek kablo yapısı sayesinde kolayca taşınabilir ve bisikletin farklı kısımlarına rahatça bağlanabilir.</li>
+<li>Daha sağlam ve güvenli olup, bisikletin sabit bir noktaya güvenli bir şekilde kilitlenmesini sağlar.</li>
+<li>PVC kaplama, kilidin çizilmesini ve bisikletin zarar görmesini engeller.</li>
+<li>Bisikletler: Her türlü bisikletin güvenliğini sağlamak için uygundur.</li>
+<li>Motosikletler: Küçük motosikletler veya scooter'lar için de kullanılabilir.</li>
+<li>Diğer Eşyalar: Bahçe mobilyaları, çim biçme makineleri gibi diğer dış mekan eşyalarının güvenliğini sağlamak için de kullanılabilir.</li>
+<li>Paslanma ve Aşınmayı Önleyin: Kilidi düzenli olarak kontrol edin ve paslanma veya aşınma belirtileri olup olmadığını gözden geçirin.</li>
+<li>PVC kaplama, bu tür sorunları büyük ölçüde önlese de, düzenli bakım önemlidir.</li>
+<li>Yağlama: Kilit mekanizmasını düzenli olarak yağlayarak sorunsuz çalışmasını sağlayın.</li>
+<li>İTHAL ÜRÜN </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>328.60</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999006</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/img_271.3e5ffc.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/5665264.f5050e.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/img_271.1629f3.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/474744.d71c57.jpg</picture4>
+  </item>
+  <item>
+    <id>195.15.Y736</id>
+    <code>195.15.Y736</code>
+    <label>YUMA MOTORBİSİKLET KİLİDİ 10X170 CM YM-736</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA MOTORBİSİKLET KİLİDİ 10X170 CM YM-736</h2>
+<ul>
+<li>Motorsiklet zincir kilitleri, motosikletlerin güvenliğini sağlamak amacıyla kullanılan dayanıklı ve güçlü kilitlerdir.</li>
+<li>Zincirlerin dış kısmı, motorsikletin boyasına zarar vermemek için genellikle naylon veya PVC gibi koruyucu bir malzeme ile kaplanır.</li>
+<li>Sertleştirilmiş çelik gövde.</li>
+<li>60 mm mandal ayarı.</li>
+<li>10mm halka </li>
+<li>170mm boy</li>
+<li>3 anahtarlı.</li>
+<li>Zincirler genellikle sertleştirilmiş çelikten yapılır, bu da kesilme ve kırılma girişimlerine karşı dayanıklı olmalarını sağlar.</li>
+<li>Zincirlerin dış kısmı, motorsikletin boyasına zarar vermemek için genellikle naylon veya PVC gibi koruyucu bir malzeme ile kaplanır.</li>
+<li>Çoğu zincir kilit, yüksek güvenlikli bir anahtarlı kilit mekanizmasına sahiptir.</li>
+<li>Bu kilitler, hırsızların maymuncuk kullanarak kilidi açmasını zorlaştırır.</li>
+<li>Bazı zincir kilitler, disk kilidi ile entegre bir yapıya sahiptir, bu da motorsikletin tekerleğini sabitleyerek hareket etmesini engeller.</li>
+<li>Motorsikletinizi her zaman sabit ve sağlam bir noktaya kilitleyin.</li>
+<li>Motosiklet park yerleri, direkler veya sağlam çitler uygun yerlerdir.</li>
+<li>Zinciri motorsikletin çerçevesine ve tekerleğine geçirerek kilitlemek, hırsızların motorsikleti taşımasını veya tekerleklerini çıkararak çalmasını zorlaştırır.</li>
+<li>Hırsızlara karşı daha iyi koruma sağlamak için yüksek güvenlikli kilit mekanizmaları seçin.</li>
+<li>Çift kilitleme sistemleri ve güçlendirilmiş kilitler daha güvenlidir.</li>
+<li>Zinciri düzenli olarak kontrol edin ve paslanma veya aşınma belirtileri olup olmadığını gözden geçirin.</li>
+<li>Paslanma önleyici spreyler kullanabilirsiniz.</li>
+<li>Kilit mekanizmasını düzenli olarak yağlayarak sorunsuz çalışmasını sağlayın.</li>
+<li>Güçlü ve dayanıklı bir kilit mekanizması seçin.</li>
+<li>Anahtarın güvenliği ve kilidin kırılma direnci önemlidir.</li>
+<li>İTHAL ÜRÜN </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>1860.00</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999007</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/img_272.ef88d2.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/img_272.0885ea.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/img_272.18d7d8.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/aewrfgarf.028ef5.jpg</picture4>
+  </item>
+  <item>
+    <id>195.15.Y737</id>
+    <code>195.15.Y737</code>
+    <label>YUMA MOTORBİSİKLET KİLİDİ 10X170 CM YM-737</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA MOTORBİSİKLET KİLİDİ 10X170 CM YM-737</h2>
+<ul>
+<li>Motorsiklet zincir kilitleri, motosikletlerin güvenliğini sağlamak amacıyla kullanılan dayanıklı ve güçlü kilitlerdir.</li>
+<li>Zincirlerin dış kısmı, motorsikletin boyasına zarar vermemek için genellikle naylon veya PVC gibi koruyucu bir malzeme ile kaplanır.</li>
+<li>Sertleştirilmiş çelik gövde.</li>
+<li>60 mm mandal kilit </li>
+<li>3 anahtarlı.</li>
+<li>BOY: 170 CM</li>
+<li>ÇAP: 10 MM</li>
+<li>Zincirler genellikle sertleştirilmiş çelikten yapılır, bu da kesilme ve kırılma girişimlerine karşı dayanıklı olmalarını sağlar.</li>
+<li>Zincirlerin dış kısmı, motorsikletin boyasına zarar vermemek için genellikle naylon veya PVC gibi koruyucu bir malzeme ile kaplanır.</li>
+<li>Çoğu zincir kilit, yüksek güvenlikli bir anahtarlı kilit mekanizmasına sahiptir.</li>
+<li>Bu kilitler, hırsızların maymuncuk kullanarak kilidi açmasını zorlaştırır.</li>
+<li>Bazı zincir kilitler, disk kilidi ile entegre bir yapıya sahiptir, bu da motorsikletin tekerleğini sabitleyerek hareket etmesini engeller.</li>
+<li>Motorsikletinizi her zaman sabit ve sağlam bir noktaya kilitleyin.</li>
+<li>Motosiklet park yerleri, direkler veya sağlam çitler uygun yerlerdir.</li>
+<li>Zinciri motorsikletin çerçevesine ve tekerleğine geçirerek kilitlemek, hırsızların motorsikleti taşımasını veya tekerleklerini çıkararak çalmasını zorlaştırır.</li>
+<li>Hırsızlara karşı daha iyi koruma sağlamak için yüksek güvenlikli kilit mekanizmaları seçin.</li>
+<li>Çift kilitleme sistemleri ve güçlendirilmiş kilitler daha güvenlidir.</li>
+<li>Zinciri düzenli olarak kontrol edin ve paslanma veya aşınma belirtileri olup olmadığını gözden geçirin.</li>
+<li>Paslanma önleyici spreyler kullanabilirsiniz.</li>
+<li>Kilit mekanizmasını düzenli olarak yağlayarak sorunsuz çalışmasını sağlayın.</li>
+<li>Güçlü ve dayanıklı bir kilit mekanizması seçin.</li>
+<li>Anahtarın güvenliği ve kilidin kırılma direnci önemlidir.</li>
+<li>İTHAL ÜRÜN </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>1463.20</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999008</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/img_272.dde4c3.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/img_272.626923.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/aewrfgarf.a5c906.jpg</picture3>
+  </item>
+  <item>
+    <id>195.15.Y746</id>
+    <code>195.15.Y746</code>
+    <label>YUMA MOTORBİSİKLET KİLİDİ 20X150 CM YM-746</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA MOTORBİSİKLET KİLİDİ 20X150 CM YM-746</h2>
+<ul>
+<li>Çelik Gövde ve Zincir: Kilidin iç kısmı, yüksek mukavemetli çelikten yapılır, bu da kilidin kesilme ve kırılma girişimlerine karşı dayanıklı olmasını sağlar.</li>
+<li>Dış yüzeyi kaplayan PVC malzeme, kilidin paslanmasını önler ve motosikletin yüzeyine zarar vermesini engeller.</li>
+<li>Kilidin anahtarla açılıp kapanan bir mekanizması vardır.</li>
+<li>Bu kilitler, hırsızların maymuncuk kullanarak kilidi açmasını zorlaştırır.</li>
+<li>Esnek yapısı sayesinde motosikleti sabit bir noktaya kolayca bağlayabilir.</li>
+<li>Daha sağlam ve güvenli olup, motosikletin tekerleği veya çerçevesi etrafına takılabilir.</li>
+<li>Motosikletin boyasına veya diğer yüzeylerine zarar vermesini önler.</li>
+<li>Motosikletinizi her zaman sabit ve sağlam bir noktaya kilitleyin.</li>
+<li>Direkler, motosiklet park yerleri veya sağlam çitler uygun yerlerdir.</li>
+<li>Paslanma ve Aşınma Kontrolü: Zinciri ve kilit mekanizmasını düzenli olarak kontrol edin ve paslanma veya aşınma belirtileri olup olmadığını gözden geçirin.</li>
+<li>Yağlama: Kilit mekanizmasını düzenli olarak yağlayarak sorunsuz çalışmasını sağlayın.</li>
+<li>PVC kaplı motosiklet kilitleri, motosikletinizi güvenli bir şekilde korumak için dayanıklı ve pratik bir seçenektir.</li>
+<li>Yüksek mukavemetli çelik gövde ve koruyucu PVC kaplama, kilidin hem güvenli hem de motosikletinize zarar vermeden kullanılmasını sağlar.</li>
+<li>BOY: 150 CM</li>
+<li>ÇAP: 20 MM</li>
+<li>İTHAL ÜRÜN</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>381.30</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999009</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/19515y746-.b4a519.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/19515y746-.dbbee7.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/19515y746-.8de156.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/dfgdfgzdffghgfd.68dc4e.jpg</picture4>
+  </item>
+  <item>
+    <id>195.15.Y747</id>
+    <code>195.15.Y747</code>
+    <label>YUMA MOTORBİSİKLET KLD. ŞİFRELİ 20X120 CM YM-747</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA MOTORBİSİKLET KLD. ŞİFRELİ 20X120 CM YM-747</h2>
+<ul>
+<li>BOY: 120 CM</li>
+<li>ÇAP:20 MM</li>
+<li>Bu kilitler, anahtarla uğraşma gereksinimini ortadan kaldırarak kullanıcıya kolaylık ve güvenlik sağlar.</li>
+<li>Yüksek Mukavemetli Çelik Zincir veya U-Kilit: Kilidin iç kısmı genellikle sertleştirilmiş çelikten yapılmıştır, bu da kesilme ve kırılma girişimlerine karşı dayanıklı olmasını sağlar.</li>
+<li>PVC veya Naylon Kaplama: Dış yüzeyi kaplayan PVC veya naylon malzeme, kilidin hava koşullarına karşı korumasını sağlar ve motosikletin boyasına zarar vermesini engeller.</li>
+<li>5 Haneli Şifre: Şifreli mekanizma, 100.000 farklı kombinasyon olasılığı sağlar, bu da kilidin zor açılmasını ve tahmin edilmesini engeller.</li>
+<li>Şifre Ayarlama: Kullanıcı, kendi belirlediği bir şifreyi kullanarak kilidi açabilir ve kapatabilir.</li>
+<li>Şifre genellikle kolayca değiştirilebilir.</li>
+<li>Esnek kablo yapısı sayesinde kolayca taşınabilir ve motosikletin farklı kısımlarına rahatça bağlanabilir.</li>
+<li>Daha sağlam ve güvenli olup, motosikletin sabit bir noktaya güvenli bir şekilde kilitlenmesini sağlar.</li>
+<li>PVC kaplama, kilidin çizilmesini ve motosikletin zarar görmesini engeller.</li>
+<li>İlk Ayar: İlk kullanımda fabrika ayarlı şifreyi kullanarak kilidi açın ve kendi belirlediğiniz şifreyi ayarlayın.</li>
+<li>Şifreyi belirlerken karmaşık ve tahmin edilmesi zor bir kombinasyon seçin.</li>
+<li>Şifre Değiştirme:</li>
+<li>Şifreyi düzenli olarak değiştirin ve şifreyi kimseyle paylaşmayın.</li>
+<li>Motosikletinizi her zaman sabit ve sağlam bir noktaya kilitleyin.</li>
+<li>Direkler, motosiklet park yerleri veya sağlam çitler bu iş için uygundur.</li>
+<li>Kilidi düzenli olarak kontrol edin ve paslanma veya aşınma belirtileri olup olmadığını gözden geçirin.</li>
+<li>Paslanma önleyici spreyler kullanabilirsiniz.</li>
+<li>Yağlama: Kilit mekanizmasını düzenli olarak yağlayarak sorunsuz çalışmasını sağlayın.</li>
+<li>Güçlü ve dayanıklı bir kilit mekanizması seçin.</li>
+<li>Şifre mekanizmasının güvenliği ve kilidin kırılma direnci önemlidir.</li>
+<li>İTHAL ÜRÜN</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>400.52</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999010</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/19515y747-.805fed.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/19515y747-.ba7808.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/19515y747-.7534e1.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/bioioi.b83a71.jpg</picture4>
+  </item>
+  <item>
+    <id>195.15.Y748</id>
+    <code>195.15.Y748</code>
+    <label>YUMA MOTORBİSİKLET KLD. ZİNCİRLİ 10X150 CM YM-748</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA MOTORBİSİKLET KLD. ZİNCİRLİ 10X150 CM YM-748</h2>
+<ul>
+<li>Motorsiklet zincir kilitleri, motosikletlerin güvenliğini sağlamak amacıyla kullanılan dayanıklı ve güçlü kilitlerdir.</li>
+<li>Zincirlerin dış kısmı, motorsikletin boyasına zarar vermemek için genellikle naylon veya PVC gibi koruyucu bir malzeme ile kaplanır.</li>
+<li>Sertleştirilmiş çelik gövde.</li>
+<li>60 mm mandal ayarı.</li>
+<li>BOY: 150 CM</li>
+<li>ÇAP: 10 MM</li>
+<li>Anahtarlı.</li>
+<li>Zincirler genellikle sertleştirilmiş çelikten yapılır, bu da kesilme ve kırılma girişimlerine karşı dayanıklı olmalarını sağlar.</li>
+<li>Zincirlerin dış kısmı, motorsikletin boyasına zarar vermemek için genellikle naylon veya PVC gibi koruyucu bir malzeme ile kaplanır.</li>
+<li>Çoğu zincir kilit, yüksek güvenlikli bir anahtarlı kilit mekanizmasına sahiptir.</li>
+<li>Bu kilitler, hırsızların maymuncuk kullanarak kilidi açmasını zorlaştırır.</li>
+<li>Bazı zincir kilitler, disk kilidi ile entegre bir yapıya sahiptir, bu da motorsikletin tekerleğini sabitleyerek hareket etmesini engeller.</li>
+<li>Motorsikletinizi her zaman sabit ve sağlam bir noktaya kilitleyin.</li>
+<li>Motosiklet park yerleri, direkler veya sağlam çitler uygun yerlerdir.</li>
+<li>Zinciri motorsikletin çerçevesine ve tekerleğine geçirerek kilitlemek, hırsızların motorsikleti taşımasını veya tekerleklerini çıkararak çalmasını zorlaştırır.</li>
+<li>Hırsızlara karşı daha iyi koruma sağlamak için yüksek güvenlikli kilit mekanizmaları seçin.</li>
+<li>Çift kilitleme sistemleri ve güçlendirilmiş kilitler daha güvenlidir.</li>
+<li>Zinciri düzenli olarak kontrol edin ve paslanma veya aşınma belirtileri olup olmadığını gözden geçirin.</li>
+<li>Paslanma önleyici spreyler kullanabilirsiniz.</li>
+<li>Kilit mekanizmasını düzenli olarak yağlayarak sorunsuz çalışmasını sağlayın.</li>
+<li>Güçlü ve dayanıklı bir kilit mekanizması seçin.</li>
+<li>Anahtarın güvenliği ve kilidin kırılma direnci önemlidir.</li>
+<li>İTHAL ÜRÜN </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>1240.00</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999011</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/19515y748-.7a673b.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/19515y748-.f0bbb1.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/fghxfghfghjgh.997ac7.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/sdfzdfgdfg.dbdd70.jpg</picture4>
+  </item>
+  <item>
+    <id>115.09.4050</id>
+    <code>115.09.4050</code>
+    <label>MERİDYEN MDF VİDASI 4x50 (200 AD.)</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>MERİDYEN MDF VİDASI 4x50 (200 AD.)</h2>
+<ul>
+<li>Kullanım Avantajları<!--TgQPHd||&#091;&#093;--></li>
+<li>MDF ve sunta yüzeylere uygulanırken malzemenin şişmesini veya çatlamasını engeller.<!--TgQPHd||&#091;&#093;--><!--TgQPHd||&#091;&#093;--></li>
+<li>Havşa başlı yapısı sayesinde ekstra delik açmaya gerek kalmadan yüzeye tamamen gömülebilir.<!--TgQPHd||&#091;&#093;--><!--TgQPHd||&#091;&#093;--></li>
+<li>Kolay Montaj:<!--TgQPHd||&#091;&#093;--> Matkap uçlu ve testere dişli yapısıyla yüzeyi delmeden hızla vidalanır.</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>122.76</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999012</barcode>
+    <brand>MERİDYEN</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/sxdfg-sdfgsadfgf.650680.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/chgfjdfhjdjdy.a098f3.jpg</picture2>
+  </item>
+  <item>
+    <id>195.15.Y751</id>
+    <code>195.15.Y751</code>
+    <label>YUMA BİSİKLET KİLİDİ 12X80 CM YM-751</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA BİSİKLET KİLİDİ 12X80 CM YM-751</h2>
+<ul>
+<li>YMK BİSİKLET KİLİDİ EKO</li>
+<li>BOY:80 CM</li>
+<li>ÇAP:12 MM </li>
+<li>Ymk bisiklet kilidi çelik halat üzerine pvc kaplamadır.</li>
+<li>PVC kaplamalı bisiklet kilitleri, bisikletlerin güvenliğini sağlamak için kullanılan, dış yüzeyi PVC (Polivinil Klorür) ile kaplanmış kilitlerdir.</li>
+<li>PVC kaplama, kilidin hava koşullarına dayanıklılığını artırır ve bisikletin çerçevesine zarar vermesini önler.</li>
+<li>İşte PVC kaplamalı bisiklet kilitlerinin özellikleri ve kullanımı hakkında detaylı bilgi</li>
+<li>Malzeme ve Yapı:</li>
+<li>Çelik Gövde: Kilidin iç kısmı genellikle yüksek mukavemetli çelikten yapılmıştır, bu da kilidin kesilme ve kırılma girişimlerine karşı dayanıklı olmasını sağlar.</li>
+<li>PVC Kaplama: Dış yüzeyi kaplayan PVC malzeme, kilidin hava koşullarına karşı korumasını sağlar ve bisikletin boyasına zarar vermesini engeller.</li>
+<li>Anahtarlı Kilit: Anahtarla açılıp kapanan modeller yaygındır. Genellikle yüksek güvenlik sağlayan, zor açılan anahtarlı mekanizmalara sahiptir.</li>
+<li>Esnek kablo yapısı sayesinde kolayca taşınabilir ve bisikletin farklı kısımlarına rahatça bağlanabilir.</li>
+<li>Daha sağlam ve güvenli olup, bisikletin sabit bir noktaya güvenli bir şekilde kilitlenmesini sağlar.</li>
+<li>PVC kaplama, kilidin çizilmesini ve bisikletin zarar görmesini engeller.</li>
+<li>Bisikletler: Her türlü bisikletin güvenliğini sağlamak için uygundur.</li>
+<li>Motosikletler: Küçük motosikletler veya scooter'lar için de kullanılabilir.</li>
+<li>Diğer Eşyalar: Bahçe mobilyaları, çim biçme makineleri gibi diğer dış mekan eşyalarının güvenliğini sağlamak için de kullanılabilir.</li>
+<li>Paslanma ve Aşınmayı Önleyin: Kilidi düzenli olarak kontrol edin ve paslanma veya aşınma belirtileri olup olmadığını gözden geçirin.</li>
+<li>PVC kaplama, bu tür sorunları büyük ölçüde önlese de, düzenli bakım önemlidir.</li>
+<li>Yağlama: Kilit mekanizmasını düzenli olarak yağlayarak sorunsuz çalışmasını sağlayın.</li>
+<li>İTHAL ÜRÜN </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>114.08</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999013</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/yuma-bisiklet-kilidi-ym-751motosiklet-f0f4a.3f367d.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/yuma-bisiklet-kilidi-ym-751motosiklet-48-4d.f308af.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/972788832670.c8cba9.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/c8666740293ae6e886a3e4e81142c9523cb4ebc7_origina.580d7e.jpeg</picture4>
+  </item>
+  <item>
+    <id>195.16.KH02</id>
+    <code>195.16.KH02</code>
+    <label>YMK KAPI HİDROLİK YMK-742 NO:2</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YMK KAPI HİDROLİK YMK-742 NO:2</h2>
+<ul>
+<li>1. Kalite</li>
+<li>Yıllarca dayanabilen aksamlar.</li>
+<li>Üst derece güvenlidir.</li>
+<li>Korozyona eskimeye dayanıklıdır.</li>
+<li>Uzun ömürlüdür.</li>
+<li>Kapı arkasına monte edilerek, kapının açılmasına, kapanmasına veya istenilen hızda hareket etmesine olanak tanıyan mekanizmalardır.</li>
+<li>Kapı hidroliği, kapının üst kısmına veya yanına monte edilir. Montaj talimatlarına uygun olarak doğru konuma yerleştirilmelidir.</li>
+<li>Üstten montajlı hidrolikler, kapının üst kısmına monte edilirken, yan montajlı hidrolikler kapının yan tarafına monte edilir.</li>
+<li>Hidroliği sabitlemek için doğru vidaları ve delikleri kullanarak sağlam bir montaj yapın.</li>
+<li>Kapı hidroliğinin kapanma hızını ayarlamak için genellikle bir veya iki ayar vidası bulunur.</li>
+<li>Bu vidaları kullanarak kapının kapanma hızını kontrol edebilirsiniz.</li>
+<li>Kapanma hızını yavaşlatmak veya hızlandırmak için vidaları saat yönünde veya saat yönünün tersine çevirin.</li>
+<li>Geri çekme kuvveti, kapının açılma hızını kontrol eder ve kapının çok hızlı açılmasını engeller.</li>
+<li>Bu, özellikle rüzgarlı dış mekan kapıları için önemlidir.</li>
+<li>Bu ayar, kapının istenen açılma direncine göre ayarlanabilir.</li>
+<li>Kapı hidroliğinin düzgün çalışması için düzenli olarak bakım yapılmalıdır.</li>
+<li>Mekanizmayı temizlemek ve yağlamak, uzun ömürlü kullanım sağlar.</li>
+<li>Vidaların ve montaj parçalarının sıkılığını düzenli olarak kontrol edin ve gerektiğinde sıkın.</li>
+<li>Kapıyı hidrolik mekanizmaya zarar vermemek için yavaş ve kontrollü bir şekilde açıp kapayın.</li>
+<li>Kapının sert bir şekilde itilmesi veya çekilmesi, hidrolik mekanizmasına zarar verebilir.</li>
+<li>Kapı hidroliğini, üreticinin önerdiği kapı türü ve ağırlığı için kullanın.</li>
+<li>Yanlış kapı türü veya ağırlık, hidroliğin düzgün çalışmamasına neden olabilir.</li>
+<li>İTHAL ÜRÜN </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>381.30</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999014</barcode>
+    <brand>YMK</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/1063889541534.c8ac15.jpg</picture1>
+  </item>
+  <item>
+    <id>195.16.KH03</id>
+    <code>195.16.KH03</code>
+    <label>YMK KAPI HİDROLİK YMK-743 NO:3</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YMK KAPI HİDROLİK YMK-743 NO:3</h2>
+<ul>
+<li>1. Kalite</li>
+<li>Yıllarca dayanabilen aksamlar.</li>
+<li>Üst derece güvenlidir.</li>
+<li>Korozyona eskimeye dayanıklıdır.</li>
+<li>Uzun ömürlüdür.</li>
+<li>Kapı arkasına monte edilerek, kapının açılmasına, kapanmasına veya istenilen hızda hareket etmesine olanak tanıyan mekanizmalardır.</li>
+<li>Kapı hidroliği, kapının üst kısmına veya yanına monte edilir. Montaj talimatlarına uygun olarak doğru konuma yerleştirilmelidir.</li>
+<li>Üstten montajlı hidrolikler, kapının üst kısmına monte edilirken, yan montajlı hidrolikler kapının yan tarafına monte edilir.</li>
+<li>Hidroliği sabitlemek için doğru vidaları ve delikleri kullanarak sağlam bir montaj yapın.</li>
+<li>Kapı hidroliğinin kapanma hızını ayarlamak için genellikle bir veya iki ayar vidası bulunur.</li>
+<li>Bu vidaları kullanarak kapının kapanma hızını kontrol edebilirsiniz.</li>
+<li>Kapanma hızını yavaşlatmak veya hızlandırmak için vidaları saat yönünde veya saat yönünün tersine çevirin.</li>
+<li>Geri çekme kuvveti, kapının açılma hızını kontrol eder ve kapının çok hızlı açılmasını engeller.</li>
+<li>Bu, özellikle rüzgarlı dış mekan kapıları için önemlidir.</li>
+<li>Bu ayar, kapının istenen açılma direncine göre ayarlanabilir.</li>
+<li>Kapı hidroliğinin düzgün çalışması için düzenli olarak bakım yapılmalıdır.</li>
+<li>Mekanizmayı temizlemek ve yağlamak, uzun ömürlü kullanım sağlar.</li>
+<li>Vidaların ve montaj parçalarının sıkılığını düzenli olarak kontrol edin ve gerektiğinde sıkın.</li>
+<li>Kapıyı hidrolik mekanizmaya zarar vermemek için yavaş ve kontrollü bir şekilde açıp kapayın.</li>
+<li>Kapının sert bir şekilde itilmesi veya çekilmesi, hidrolik mekanizmasına zarar verebilir.</li>
+<li>Kapı hidroliğini, üreticinin önerdiği kapı türü ve ağırlığı için kullanın.</li>
+<li>Yanlış kapı türü veya ağırlık, hidroliğin düzgün çalışmamasına neden olabilir.</li>
+<li>İTHAL ÜRÜN </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>434.00</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999015</barcode>
+    <brand>YMK</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/1063889541534.754100.jpg</picture1>
+  </item>
+  <item>
+    <id>195.16.KH04</id>
+    <code>195.16.KH04</code>
+    <label>YMK KAPI HİDROLİK YMK-744 NO:4</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YMK KAPI HİDROLİK YMK-744 NO:4</h2>
+<ul>
+<li>1. Kalite</li>
+<li>Yıllarca dayanabilen aksamlar.</li>
+<li>Üst derece güvenlidir.</li>
+<li>Korozyona eskimeye dayanıklıdır.</li>
+<li>Uzun ömürlüdür.</li>
+<li>Kapı arkasına monte edilerek, kapının açılmasına, kapanmasına veya istenilen hızda hareket etmesine olanak tanıyan mekanizmalardır.</li>
+<li>Kapı hidroliği, kapının üst kısmına veya yanına monte edilir. Montaj talimatlarına uygun olarak doğru konuma yerleştirilmelidir.</li>
+<li>Üstten montajlı hidrolikler, kapının üst kısmına monte edilirken, yan montajlı hidrolikler kapının yan tarafına monte edilir.</li>
+<li>Hidroliği sabitlemek için doğru vidaları ve delikleri kullanarak sağlam bir montaj yapın.</li>
+<li>Kapı hidroliğinin kapanma hızını ayarlamak için genellikle bir veya iki ayar vidası bulunur.</li>
+<li>Bu vidaları kullanarak kapının kapanma hızını kontrol edebilirsiniz.</li>
+<li>Kapanma hızını yavaşlatmak veya hızlandırmak için vidaları saat yönünde veya saat yönünün tersine çevirin.</li>
+<li>Geri çekme kuvveti, kapının açılma hızını kontrol eder ve kapının çok hızlı açılmasını engeller.</li>
+<li>Bu, özellikle rüzgarlı dış mekan kapıları için önemlidir.</li>
+<li>Bu ayar, kapının istenen açılma direncine göre ayarlanabilir.</li>
+<li>Kapı hidroliğinin düzgün çalışması için düzenli olarak bakım yapılmalıdır.</li>
+<li>Mekanizmayı temizlemek ve yağlamak, uzun ömürlü kullanım sağlar.</li>
+<li>Vidaların ve montaj parçalarının sıkılığını düzenli olarak kontrol edin ve gerektiğinde sıkın.</li>
+<li>Kapıyı hidrolik mekanizmaya zarar vermemek için yavaş ve kontrollü bir şekilde açıp kapayın.</li>
+<li>Kapının sert bir şekilde itilmesi veya çekilmesi, hidrolik mekanizmasına zarar verebilir.</li>
+<li>Kapı hidroliğini, üreticinin önerdiği kapı türü ve ağırlığı için kullanın.</li>
+<li>Yanlış kapı türü veya ağırlık, hidroliğin düzgün çalışmamasına neden olabilir.</li>
+<li>İTHAL ÜRÜN </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>604.50</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999016</barcode>
+    <brand>YMK</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/c61bf924-0ada-46f3-9baf-7ee3af9b175.f2ea3f.jpeg</picture1>
+  </item>
+  <item>
+    <id>195.17.Y721</id>
+    <code>195.17.Y721</code>
+    <label>YUMA KAPI ROZETİ BLİSTERLİ YM-721V</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA KAPI ROZETİ BLİSTERLİ YM-721V</h2>
+<ul>
+<li>Darbeye karşı dayanıklı çelik rozetler bareli koruma altına alarak güvenliğinizi arttırır.</li>
+<li>Çelik Kapı Rozeti M5 Vidalı 2 Adet</li>
+<li>Birim Ağırlık 104 gr</li>
+<li>Rozetler genellikle paslanmaz çelikten üretilir, bu da onları dayanıklı ve uzun ömürlü kılar.</li>
+<li>Çelik kapı rozetleri, kapının ve kilit mekanizmasının korunmasına yardımcı olan koruyucu bir kaplamaya sahiptir.</li>
+<li>M5 vidalar, rozetin kapıya sabitlenmesi için kullanılır.</li>
+<li>Bu vidalar, genellikle sağlam ve güvenli bir montaj sağlar.</li>
+<li>Vidalı sistem, rozetlerin kapıya kolayca monte edilmesini ve gerektiğinde çıkarılmasını sağlar.</li>
+<li>Çelik kapı rozetleri, kapının estetik görünümünü tamamlar ve daha şık bir görünüm sağlar.</li>
+<li>Rozetler, kapının kilit mekanizmasını dış etkenlere ve zorlamalara karşı korur.</li>
+<li>Paslanmaz çelik malzeme, güvenlik açısından ek bir dayanıklılık sağlar.</li>
+<li>Çelik kapı rozetlerini düzenli olarak temizleyerek paslanma ve kir birikimini önleyin.</li>
+<li>Hafif sabunlu su ve yumuşak bir bez kullanarak temizleyebilirsiniz.</li>
+<li>YERLİ ÜRETİM</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>105.40</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999017</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/0_org_zood6af8.3378f3.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/11000001626478.455445.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/0_org_zood6af8.2a8e4d.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/img_4161c720.a8c708.jpg</picture4>
+  </item>
+  <item>
+    <id>195.17.Y730</id>
+    <code>195.17.Y730</code>
+    <label>YUMA KAPI GÜVENLİK APARATI YM-730</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA KAPI GÜVENLİK APARATI YM-730</h2>
+<ul>
+<li>Alüminyum doğramalarda, metal, pvc ve ahşap kapılarda kullanılır.</li>
+<li>Mekan emniyetinin güçlendirilmesini sağlar.</li>
+<li>Takım içerisinde montaj vidaları vardır.</li>
+<li>Çelik milleri ve asma kilidi muadil önlemlere göre oldukça etkilidir.</li>
+<li>Bu tür aparatların amacı, kapının zorla açılmasını önlemek ve ek güvenlik sağlamaktır.</li>
+<li>Genellikle kapının menteşe kısmına veya kilit bölgesine monte edilirler.</li>
+<li>Bu özel aparat, vidalarla sabitlenebilen ve sağlam bir kilitleme mekanizması sağlayan metal bir yapıdadır.</li>
+<li>Ev içi veya dış kapılarda ek güvenlik sağlamak için kullanılabilir.</li>
+<li>Ofis ve iş yerlerinde güvenliği artırmak amacıyla tercih edilebilir.</li>
+<li>Depo, garaj veya diğer özel alanların güvenliğini sağlamak için de kullanılabilir.</li>
+<li>Aparatı kapının belirlenen kısmına yerleştirin.</li>
+<li>Vidaları kullanarak aparatı kapıya sıkıca monte edin.</li>
+<li>Vidaların gevşek olmadığından emin olun.</li>
+<li>Aparatın düzenli olarak kontrol edilmesi ve gevşeyen vidaların sıkılması önemlidir.</li>
+<li>Temizlik ve paslanmaya karşı koruma sağlamak için düzenli bakım yapılmalıdır.</li>
+<li>YERLİ ÜRETİM</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>260.40</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999018</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/1860125_mediu.035cd4.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/4792.fc1d7b.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/kapi-emniyet-aparatlariyuma-ym-730-kap-36-44.c5fb9b.jpg</picture3>
+  </item>
+  <item>
+    <id>195.18.1070</id>
+    <code>195.18.1070</code>
+    <label>YUMA KAYAR MİLLİ ASMA KİLİT 70 MM 1070R NİKEL</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA KAYAR MİLLİ ASMA KİLİT 70 MM 1070R NİKEL</h2>
+<ul>
+<li>Çekiçle darbeye ve koparmaya dayanıklı kanca kilitleme mekanizması</li>
+<li>Standart krom kaplama çelik kanca</li>
+<li>Paslanmaz yaylar</li>
+<li>Kilit, kayar milli bir mekanizmaya sahiptir.</li>
+<li>Bu sistem, kilidin açılmasını zorlaştırarak ek güvenlik sağlar.</li>
+<li>Genellikle kilit, özel olarak tasarlanmış anahtarlarla açılır.</li>
+<li>Anahtar, kilidin içindeki mili kaydırarak kilidi açar veya kapatır.</li>
+<li>Kilitlerin gövdesi genellikle sertleştirilmiş çelikten yapılmıştır, bu da kesilme ve kırılma girişimlerine karşı yüksek dayanıklılık sağlar.</li>
+<li>Paslanmaz çelik veya diğer dayanıklı malzemeler kullanılarak üretilen bu kilitler, hava koşullarına karşı dirençlidir.</li>
+<li>Kayar millî asma kilitler, diğer standart kilitlere göre daha yüksek güvenlik sağlar.</li>
+<li>Kilidin açılması için özel anahtar gerektirir ve kayar milli mekanizma sayesinde manipülasyonlara karşı dayanıklıdır.</li>
+<li>Kilidin dış kısmı, kırılma ve delinme girişimlerine karşı koruma sağlar.</li>
+<li>Evlerde ve iş yerlerinde kapı güvenliğini artırmak için kullanılabilir.</li>
+<li>Değerli eşyaların saklandığı depolar ve garajlar için ideal bir güvenlik çözümüdür.</li>
+<li>Bisiklet ve motosikletlerin güvenliğini sağlamak için kullanılabilir.</li>
+<li>Kayar millî mekanizması sayesinde diğer standart kilitlere göre daha yüksek güvenlik sağlar.</li>
+<li>İTHAL ÜRÜN </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>198.40</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999019</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/kayar-mill.0d9956.png</picture1>
+  </item>
+  <item>
+    <id>195.18.1080</id>
+    <code>195.18.1080</code>
+    <label>YUMA KAYAR MİLLİ ASMA KİLİT 80 MM 1080R NİKEL</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA KAYAR MİLLİ ASMA KİLİT 80 MM 1080R NİKEL</h2>
+<ul>
+<li>Çekiçle darbeye ve koparmaya dayanıklı kanca kilitleme mekanizması</li>
+<li>Standart krom kaplama çelik kanca</li>
+<li>Paslanmaz yaylar</li>
+<li>Kilit, kayar milli bir mekanizmaya sahiptir.</li>
+<li>Bu sistem, kilidin açılmasını zorlaştırarak ek güvenlik sağlar.</li>
+<li>Genellikle kilit, özel olarak tasarlanmış anahtarlarla açılır.</li>
+<li>Anahtar, kilidin içindeki mili kaydırarak kilidi açar veya kapatır.</li>
+<li>Kilitlerin gövdesi genellikle sertleştirilmiş çelikten yapılmıştır, bu da kesilme ve kırılma girişimlerine karşı yüksek dayanıklılık sağlar.</li>
+<li>Paslanmaz çelik veya diğer dayanıklı malzemeler kullanılarak üretilen bu kilitler, hava koşullarına karşı dirençlidir.</li>
+<li>Kayar millî asma kilitler, diğer standart kilitlere göre daha yüksek güvenlik sağlar.</li>
+<li>Kilidin açılması için özel anahtar gerektirir ve kayar milli mekanizma sayesinde manipülasyonlara karşı dayanıklıdır.</li>
+<li>Kilidin dış kısmı, kırılma ve delinme girişimlerine karşı koruma sağlar.</li>
+<li>Evlerde ve iş yerlerinde kapı güvenliğini artırmak için kullanılabilir.</li>
+<li>Değerli eşyaların saklandığı depolar ve garajlar için ideal bir güvenlik çözümüdür.</li>
+<li>Bisiklet ve motosikletlerin güvenliğini sağlamak için kullanılabilir.</li>
+<li>Kayar millî mekanizması sayesinde diğer standart kilitlere göre daha yüksek güvenlik sağlar.</li>
+<li>İTHAL ÜRÜN </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>217.00</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999020</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/kayar-mill.60c39d.png</picture1>
+  </item>
+  <item>
+    <id>195.18.1090</id>
+    <code>195.18.1090</code>
+    <label>YUMA KAYAR MİLLİ ASMA KİLİT 90 MM 1090R NİKEL</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA KAYAR MİLLİ ASMA KİLİT 90 MM 1090R NİKEL</h2>
+<ul>
+<li>Çekiçle darbeye ve koparmaya dayanıklı kanca kilitleme mekanizması</li>
+<li>Standart krom kaplama çelik kanca</li>
+<li>Paslanmaz yaylar</li>
+<li>Kilit, kayar milli bir mekanizmaya sahiptir.</li>
+<li>Bu sistem, kilidin açılmasını zorlaştırarak ek güvenlik sağlar.</li>
+<li>Genellikle kilit, özel olarak tasarlanmış anahtarlarla açılır.</li>
+<li>Anahtar, kilidin içindeki mili kaydırarak kilidi açar veya kapatır.</li>
+<li>Kilitlerin gövdesi genellikle sertleştirilmiş çelikten yapılmıştır, bu da kesilme ve kırılma girişimlerine karşı yüksek dayanıklılık sağlar.</li>
+<li>Paslanmaz çelik veya diğer dayanıklı malzemeler kullanılarak üretilen bu kilitler, hava koşullarına karşı dirençlidir.</li>
+<li>Kayar millî asma kilitler, diğer standart kilitlere göre daha yüksek güvenlik sağlar.</li>
+<li>Kilidin açılması için özel anahtar gerektirir ve kayar milli mekanizma sayesinde manipülasyonlara karşı dayanıklıdır.</li>
+<li>Kilidin dış kısmı, kırılma ve delinme girişimlerine karşı koruma sağlar.</li>
+<li>Evlerde ve iş yerlerinde kapı güvenliğini artırmak için kullanılabilir.</li>
+<li>Değerli eşyaların saklandığı depolar ve garajlar için ideal bir güvenlik çözümüdür.</li>
+<li>Bisiklet ve motosikletlerin güvenliğini sağlamak için kullanılabilir.</li>
+<li>Kayar millî mekanizması sayesinde diğer standart kilitlere göre daha yüksek güvenlik sağlar.</li>
+<li>İTHAL ÜRÜN </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>232.50</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999021</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/kayar-mill.f0ee29.png</picture1>
+  </item>
+  <item>
+    <id>195.19.B724</id>
+    <code>195.19.B724</code>
+    <label>YUMA GÜVENLİK MANDALI BEYAZ YM-724</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2> YUMA GÜVENLİK MANDALI BEYAZ YM-724</h2>
+<ul>
+<li>Kapı ve pencerelere takılan emniyet kilitleri hırsızlık olayları için bir korunma sağlarken özellikle küçük çocuğu olan aileler için de çocuğu koruma anlamında büyük bir önlem olmaktadır.</li>
+<li>Birim Ağırlık  70gr</li>
+<li>Pimapen PVC güvenlik mandalı, genellikle pencere veya kapıları sabitlemek ve güvenliğini artırmak için kullanılan bir tür mandaldır.</li>
+<li>Bu mandallar, genellikle PVC veya benzeri malzemelerden yapılmış pencereler veya kapılar için özel olarak tasarlanmıştır.</li>
+<li>Pencere veya kapıyı kapattığınızda içeri doğru bir mandal mekanizmasıyla otomatik olarak kapanır ve güvenliği artırır.</li>
+<li>Genellikle kolay açılıp kapanabilen bir yapıya sahiptir, böylece kullanıcılar tarafından rahatlıkla kullanılabilir.</li>
+<li>Pimapen PVC güvenlik mandalları genellikle hava koşullarına dayanıklı malzemelerden yapılmış olup uzun ömürlü kullanım sağlarlar.</li>
+<li>YERLİ ÜRETİM</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>47.12</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999022</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/beyaz-guvenlik-mandali-yuma-kili.33c6ed.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/21rdwc2html_ac_drgdf.a683ec.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/erfaer.c59e10.jpg</picture3>
+  </item>
+  <item>
+    <id>195.19.K724</id>
+    <code>195.19.K724</code>
+    <label>YUMA GÜVENLİK MANDALI KAHVE YM-724K</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA GÜVENLİK MANDALI KAHVE YM-724K</h2>
+<ul>
+<li>Kapı ve pencerelere takılan emniyet kilitleri hırsızlık olayları için bir korunma sağlarken özellikle küçük çocuğu olan aileler için de çocuğu koruma anlamında büyük bir önlem olmaktadır.</li>
+<li>Birim Ağırlık  70gr</li>
+<li>Pimapen PVC güvenlik mandalı, genellikle pencere veya kapıları sabitlemek ve güvenliğini artırmak için kullanılan bir tür mandaldır.</li>
+<li>Bu mandallar, genellikle PVC veya benzeri malzemelerden yapılmış pencereler veya kapılar için özel olarak tasarlanmıştır.</li>
+<li>Pencere veya kapıyı kapattığınızda içeri doğru bir mandal mekanizmasıyla otomatik olarak kapanır ve güvenliği artırır.</li>
+<li>Genellikle kolay açılıp kapanabilen bir yapıya sahiptir, böylece kullanıcılar tarafından rahatlıkla kullanılabilir.</li>
+<li>Pimapen PVC güvenlik mandalları genellikle hava koşullarına dayanıklı malzemelerden yapılmış olup uzun ömürlü kullanım sağlarlar.</li>
+<li>YERLİ ÜRETİM</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>50.84</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999023</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/kahve-guvenlik-mandali-yuma-kili.d7609a.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/drferg.eb4958.jpg</picture2>
+  </item>
+  <item>
+    <id>195.20.DGM1</id>
+    <code>195.20.DGM1</code>
+    <label>YUMA PİMLİ GÜVENLİK MANDALI BEYAZ YM-724D</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA PİMLİ GÜVENLİK MANDALI BEYAZ YM-724D</h2>
+<ul>
+<li>PVC Pimapen Pencere Cam Balkon Kapısı Güvenli Emniyet Kilidi .</li>
+<li>Evinizde güven içinde bulunabilmeniz için sizlere Emniyet Kilidi PVC Pencere ürününü sunuyoruz.</li>
+<li>Pencere ve balkon kapısı kilitlemek için birden fazla sebebiniz bulunmakta.</li>
+<li>Örneğin hırsızlığa karşı pencere hırsız koruyucu güvenlikli emniyet kilidinin camlarınızda ve kapılarınızda kullanabilirsiniz.</li>
+<li>Bu sayede camlarınız ve kapılarınız daha güvenli olacak.</li>
+<li>Bir diğer sebebi ise çocuklarımızın güvenliğidir.</li>
+<li>Çocuklar başı boş bırakıldığında camlara yönelebilmektedir.</li>
+<li>Pencere Pimapen PVC balkon kapısı kilit aparatı sayesinde korkmanıza gerek yok çünkü çocuklarınız camları açamayacak</li>
+<li>YERLİ ÜRETİM</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>65.10</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999024</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/110000018873696__1_-removebg-previe.c96101.png</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/11000001887369.92e48d.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/11000001887369.a5df40.jpg</picture3>
+  </item>
+  <item>
+    <id>135.24.1204</id>
+    <code>135.24.1204</code>
+    <label>DEKOR AHŞAP SAPLI SİSTRE 6x27 CM 1204</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>DEKOR AHŞAP SAPLI SİSTRE 6x27 CM 1204</h2>
+<ul>
+<li>Ahşap Saplı Sistre</li>
+<li>Çeşitli kazıma işlerinde kullanılır.</li>
+<li>Uzayan sapı sayesinde geniş alanlardaki uygulamalarda kolaylık sağlar.</li>
+<li>Çeşitli sistre işleri için kullanılır.</li>
+<li>Ucu değiştirilebilir ve ters çevrilebilir.</li>
+<li>Ölçü:6x27 Cm</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>168.48</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999025</barcode>
+    <brand>DEKOR</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/xfgh-fghfsghfg.d622ab.jpg</picture1>
+  </item>
+  <item>
+    <id>195.22.H604</id>
+    <code>195.22.H604</code>
+    <label>YMK ODA GÖMME KİLİT HİBRİT EXTRA 35 MM KARE</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YMK ODA GÖMME KİLİT HİBRİT EXTRA 35 MM YMK-604H</h2>
+<ul>
+<li>35mm Oda Kilidi Rulmanlı Nikel </li>
+<li>Özellikler</li>
+<li>Boyut: 35 mm, kilidin kasasının derinliğini ifade eder.</li>
+<li>Bu, kapının içine monte edilen kısmın derinliğidir.</li>
+<li>Kilit, kapının içine gömülür, bu da estetik bir görünüm sağlar ve dışarıdan müdahale edilmesini zorlaştırır.</li>
+<li>Bazı hibrit kilitler, ekstra güvenlik için kapının birden fazla noktasından kilitlenmesini sağlar.</li>
+<li>Evler: İç mekan kapılarında, özellikle yatak odaları, banyolar ve ofis odaları gibi özel alanlarda kullanılır.</li>
+<li>Ofisler: Ofis odalarında, toplantı odalarında veya yöneticilere özel odalarda kullanılarak ekstra güvenlik sağlar.</li>
+<li>Otel Odaları: Otel odalarında güvenlik ve kullanım kolaylığı sağlamak için hibrit kilitler tercih edilir.</li>
+<li>Ticari Alanlar: Mağaza içi özel alanlar veya depo kapıları gibi yerlerde güvenlik ve erişim kontrolü sağlamak için kullanılır.</li>
+<li>Kurulum</li>
+<li>Kapı Hazırlığı: Kapının kilit yuvası açılmalı ve kilidin ölçülerine uygun hale getirilmelidir.</li>
+<li>Kilidin Montajı: Kilit mekanizması kapının içine yerleştirilir ve vidalarla sabitlenir.</li>
+<li>Kilidin doğru çalıştığından emin olmak için test edilir ve gerekli ayarlamalar yapılır.</li>
+<li>YERLİ ÜRETİM</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>105.40</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999026</barcode>
+    <brand>YMK</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/5200.ca6d86.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/32151722_thum.d79600.jpg</picture2>
+  </item>
+  <item>
+    <id>195.22.H613</id>
+    <code>195.22.H613</code>
+    <label>YMK ODA GÖMME KİLİT HİBRİT EXTRA 40 MM OVAL</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YMK ODA GÖMME KİLİT HİBRİT EXTRA 40 MM OVAL</h2>
+<ul>
+<li>Döndürülebilir mekanizması sayesinde kolay ve hızlı kullanım sunar, pratik bir şekilde kilidi açmanızı sağlar</li>
+<li>Sessiz çalışma özelliği ile gürültüsüz bir deneyim yaşatır, sessiz ortamlarda bile rahatsızlık vermez</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>105.40</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999027</barcode>
+    <brand>YMK</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/gemini_generated_image_ctqb37ctqb37ctq.661809.png</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/adsiz-tasari.2169c6.png</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/adsiz-tasarim-.d47690.png</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/adsiz-tasarim-.e266b5.png</picture4>
+  </item>
+  <item>
+    <id>195.22.H614</id>
+    <code>195.22.H614</code>
+    <label>YMK ODA GÖMME KİLİT HİBRİT EXTRA 45 MM KARE</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YMK ODA GÖMME KİLİT HİBRİT EXTRA 45 MM YMK-614H</h2>
+<ul>
+<li>45mm Oda Kilidi Rulmanlı Nikel </li>
+<li>Özellikler</li>
+<li>Boyut: 45 mm, kilidin kasasının derinliğini ifade eder.</li>
+<li>Bu, kapının içine monte edilen kısmın derinliğidir.</li>
+<li>Kilit, kapının içine gömülür, bu da estetik bir görünüm sağlar ve dışarıdan müdahale edilmesini zorlaştırır.</li>
+<li>Bazı hibrit kilitler, ekstra güvenlik için kapının birden fazla noktasından kilitlenmesini sağlar.</li>
+<li>Evler: İç mekan kapılarında, özellikle yatak odaları, banyolar ve ofis odaları gibi özel alanlarda kullanılır.</li>
+<li>Ofisler: Ofis odalarında, toplantı odalarında veya yöneticilere özel odalarda kullanılarak ekstra güvenlik sağlar.</li>
+<li>Otel Odaları: Otel odalarında güvenlik ve kullanım kolaylığı sağlamak için hibrit kilitler tercih edilir.</li>
+<li>Ticari Alanlar: Mağaza içi özel alanlar veya depo kapıları gibi yerlerde güvenlik ve erişim kontrolü sağlamak için kullanılır.</li>
+<li>Kurulum</li>
+<li>Kapı Hazırlığı: Kapının kilit yuvası açılmalı ve kilidin ölçülerine uygun hale getirilmelidir.</li>
+<li>Kilidin Montajı: Kilit mekanizması kapının içine yerleştirilir ve vidalarla sabitlenir.</li>
+<li>Kilidin doğru çalıştığından emin olmak için test edilir ve gerekli ayarlamalar yapılır.</li>
+<li>YERLİ ÜRETİM</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>108.50</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999028</barcode>
+    <brand>YMK</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/5200.8c4495.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/32151722_thum.9693d3.jpg</picture2>
+  </item>
+  <item>
+    <id>195.22.H635</id>
+    <code>195.22.H635</code>
+    <label>YMK SİLİNDİRLİ GÖMME KİLİT 35 MM YMK-635H</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YMK SİLİNDİRLİ GÖMME KİLİT 35 MM YMK-635H</h2>
+<ul>
+<li>35mm Oda Kilidi Rulmanlı Nikel </li>
+<li>Özellikler</li>
+<li>Boyut: 35 mm, kilidin kasasının derinliğini ifade eder.</li>
+<li>Bu, kapının içine monte edilen kısmın derinliğidir.</li>
+<li>Kilit, kapının içine gömülür, bu da estetik bir görünüm sağlar ve dışarıdan müdahale edilmesini zorlaştırır.</li>
+<li>Bazı hibrit kilitler, ekstra güvenlik için kapının birden fazla noktasından kilitlenmesini sağlar.</li>
+<li>Evler: İç mekan kapılarında, özellikle yatak odaları, banyolar ve ofis odaları gibi özel alanlarda kullanılır.</li>
+<li>Ofisler: Ofis odalarında, toplantı odalarında veya yöneticilere özel odalarda kullanılarak ekstra güvenlik sağlar.</li>
+<li>Otel Odaları: Otel odalarında güvenlik ve kullanım kolaylığı sağlamak için hibrit kilitler tercih edilir.</li>
+<li>Ticari Alanlar: Mağaza içi özel alanlar veya depo kapıları gibi yerlerde güvenlik ve erişim kontrolü sağlamak için kullanılır.</li>
+<li>Kurulum</li>
+<li>Kapı Hazırlığı: Kapının kilit yuvası açılmalı ve kilidin ölçülerine uygun hale getirilmelidir.</li>
+<li>Kilidin Montajı: Kilit mekanizması kapının içine yerleştirilir ve vidalarla sabitlenir.</li>
+<li>Kilidin doğru çalıştığından emin olmak için test edilir ve gerekli ayarlamalar yapılır.</li>
+<li>YERLİ ÜRETİM</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>372.00</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999029</barcode>
+    <brand>YMK</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/4907.135bb6.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/4907.5204bd.jpg</picture2>
+  </item>
+  <item>
+    <id>195.23.KK01</id>
+    <code>195.23.KK01</code>
+    <label>YUMA KOLİ KALEMİ KESİK UÇLU SİYAH YM-791-S</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2> YUMA KOLİ KALEMİ SİYAH YM-790-S</h2>
+<ul>
+<li>Yuma Koli Kalem, yüksek kaliteli malzemelerden üretilmiş dayanıklı bir koli işaretleme aracıdır.</li>
+<li>Alkol bazlı mürekkep kullanılarak üretilmiş olup, bu sayede hızlı kuruma özelliği ile dikkat çeker.</li>
+<li>Yuma Koli Kalem, sağlam bir yapıya sahiptir ve yoğun kullanıma dayanıklıdır.</li>
+<li>Kolayca kavranabilen ergonomik tasarımı sayesinde uzun süreli kullanımlarda dahi konfor sağlar.</li>
+<li>Yuvarlak uçlu özelliği sayesinde, net ve düzgün çizgiler elde etmek mümkündür.</li>
+<li>Koli işaretleme, paketleme ve numaralandırma gibi işlemlerde etkili bir araç olan</li>
+<li>Yuma Koli Kalem, depo ve lojistik alanlarında kullanıcıya zaman kazandırır ve iş verimliliğini artırır.</li>
+<li>Güvenilir performansıyla bilinen Yuma markasının bir ürünü olan bu kalem, kalite ve dayanıklılığı bir arada sunar.</li>
+<li>Yuma Koli Kalem ile paketlerinizi kolayca işaretleyebilir, numaralandırabilir ve organize edebilirsiniz.</li>
+<li>Alkol bazlı mürekkep sayesinde hızlı kuruma özelliği, paketlerinizi hemen kullanıma hazır hale getirir.</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>11.16</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999030</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/drgsfb.d38f62.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/image1.1e9931.jpeg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/image1.6d1bcb.jpeg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/image1.205861.jpeg</picture4>
+  </item>
+  <item>
+    <id>195.23.KK02</id>
+    <code>195.23.KK02</code>
+    <label>YUMA KOLİ KALEMİ KESİK UÇLU MAVİ YM-791-M</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA KOLİ KALEMİ MAVİ YM-790-M</h2>
+<ul>
+<li>Yuma Koli Kalem, yüksek kaliteli malzemelerden üretilmiş dayanıklı bir koli işaretleme aracıdır.</li>
+<li>Alkol bazlı mürekkep kullanılarak üretilmiş olup, bu sayede hızlı kuruma özelliği ile dikkat çeker.</li>
+<li>Yuma Koli Kalem, sağlam bir yapıya sahiptir ve yoğun kullanıma dayanıklıdır.</li>
+<li>Kolayca kavranabilen ergonomik tasarımı sayesinde uzun süreli kullanımlarda dahi konfor sağlar.</li>
+<li>Yuvarlak uçlu özelliği sayesinde, net ve düzgün çizgiler elde etmek mümkündür.</li>
+<li>Koli işaretleme, paketleme ve numaralandırma gibi işlemlerde etkili bir araç olan</li>
+<li>Yuma Koli Kalem, depo ve lojistik alanlarında kullanıcıya zaman kazandırır ve iş verimliliğini artırır.</li>
+<li>Güvenilir performansıyla bilinen Yuma markasının bir ürünü olan bu kalem, kalite ve dayanıklılığı bir arada sunar.</li>
+<li>Yuma Koli Kalem ile paketlerinizi kolayca işaretleyebilir, numaralandırabilir ve organize edebilirsiniz.</li>
+<li>Alkol bazlı mürekkep sayesinde hızlı kuruma özelliği, paketlerinizi hemen kullanıma hazır hale getirir.</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>11.16</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999031</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/image.5a2ba3.jpeg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/image.b9084f.jpeg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/image.d44255.jpeg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/image.f07b0a.jpeg</picture4>
+  </item>
+  <item>
+    <id>195.23.KK03</id>
+    <code>195.23.KK03</code>
+    <label>YUMA KOLİ KALEMİ KESİK UÇLU KIRMIZI YM-791-K</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA KOLİ KALEMİ KIRMIZI YM-790-K</h2>
+<ul>
+<li>Yuma Koli Kalem, yüksek kaliteli malzemelerden üretilmiş dayanıklı bir koli işaretleme aracıdır.</li>
+<li>Alkol bazlı mürekkep kullanılarak üretilmiş olup, bu sayede hızlı kuruma özelliği ile dikkat çeker.</li>
+<li>Yuma Koli Kalem, sağlam bir yapıya sahiptir ve yoğun kullanıma dayanıklıdır.</li>
+<li>Kolayca kavranabilen ergonomik tasarımı sayesinde uzun süreli kullanımlarda dahi konfor sağlar.</li>
+<li>Yuvarlak uçlu özelliği sayesinde, net ve düzgün çizgiler elde etmek mümkündür.</li>
+<li>Koli işaretleme, paketleme ve numaralandırma gibi işlemlerde etkili bir araç olan</li>
+<li>Yuma Koli Kalem, depo ve lojistik alanlarında kullanıcıya zaman kazandırır ve iş verimliliğini artırır.</li>
+<li>Güvenilir performansıyla bilinen Yuma markasının bir ürünü olan bu kalem, kalite ve dayanıklılığı bir arada sunar.</li>
+<li>Yuma Koli Kalem ile paketlerinizi kolayca işaretleyebilir, numaralandırabilir ve organize edebilirsiniz.</li>
+<li>Alkol bazlı mürekkep sayesinde hızlı kuruma özelliği, paketlerinizi hemen kullanıma hazır hale getirir.</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>11.16</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999032</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/image.cbf31e.jpeg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/image.4b6610.jpeg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/image.4e8ca5.jpeg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/image.f9967c.jpeg</picture4>
+  </item>
+  <item>
+    <id>195.24.PK01</id>
+    <code>195.24.PK01</code>
+    <label>YUMA PARA KASASI MİNİ BOY 170x230x170 YM-800</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA PARA KASASI MİNİ BOY 170x230x170 YM-800</h2>
+<ul>
+<li>Yükseklik: 17 cm</li>
+<li>Genişlik: 23 cm</li>
+<li>Derinlik: 17 cm</li>
+<li>Kapı Kalınlığı: 3 mm</li>
+<li>Gövde Kalınlığı: 1 mm</li>
+<li>Ağırlık: 3 kg </li>
+<li>Renk: Siyah</li>
+<li>Şifreli</li>
+<li>Montaj Yeri Duvara ve zemine monte edilebilir.</li>
+<li>İç Kısım Koruyucu zemin dahil.</li>
+<li>Şarj: 4x1.5 V AA pil ile çalıştırılabilir.</li>
+<li>Elektronik Mini Kasa özel eşyalarınızı güvenli bir şekilde saklamanızı sağlar.</li>
+<li>KAPAGI KALDIRIN (TORNAVIDA KULLANMANIZTAVSIYE EDILIR)</li>
+<li>KASANIN KILIDINI ACMAK ICIN RESETLEME ANAHTARINI YUVAYA SOKUN VE SOLA CEVIRIN</li>
+<li>MANDALI SAGA CEVIRIN VE KASAYI ACIN.</li>
+<li>KARININ ARKASINDAKI PIL BOLMESININ KAPAGINI QKARIN, 4 ADET “AA" PİLİ +/-</li>
+<li>KUTUPLAR DOGRU OLACAK ŞEKILDE YERLEŞTİRİN, KAPAGI YERINE YERLEŞTIRİN</li>
+<li>İÇİNDEKİLER </li>
+<li>KASA</li>
+<li>1KILAVUZ</li>
+<li>ANAHTAR</li>
+<li>MONTAJ VIDALARI</li>
+<li>KASAYI AÇMA: ATANAN SIFREYI VEYA MASTER SIFREYI GIRIN, “*” veya “#” TUSLARINDAN BIRINE BASIN, MANDALI SAGA CEVIRIN, KAPIYI ACIN</li>
+<li>KASAYI KILITLEME: KAPIYI KAPATIN, MANDALI SOLA CEVIRIN, KILITLEME SURGULERI KASAYI KILITLER.</li>
+<li>KASANIZ İÇİN UYGUN BİR YER BELİRLEYİN</li>
+<li>KASAYI BOŞALTIN, HALISINI ÇIKARIN</li>
+<li>KASANIN      ALTINDAKİ     VEYA     ARKASINDAKİ     VİDA     DELİKLERİNDEN      TABANA     VEYA     DUVARA SABİTLEMEK-DELMEK İÇİN İŞARETLEYİN.</li>
+<li>KASAYI DIŞAYI ALIN, İŞARETLEDİĞ İMİZ YERLERİ UVGUN ALETLERLE VE ÖLÇÜLERDE DELİN.</li>
+<li>KASAYI YERİNE KOYUN VE DELİKLERİNİZE VİDALAYIN.</li>
+<li>NOT: MONTAJ TEDBİRLERİ VE MASRAFLARI ALICIYA AİTTİR.</li>
+<li>İTHAL ÜRÜN </li>
+<li>
+<h2><span style='"color:#FF0000"'><u>ÖNEMLİ: LÜTFEN RESETLEME ANAHTARINI KASANIN İÇİNE KOYMAYIN VE UNUTMAYIN </u></span></h2>
+</li>
+</ul>
+<p> </p>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>1100.50</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999033</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/19524pk01-.524b77.png</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/19524pk01-.d5293f.png</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/s-l1600-.8f124a.png</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/19524pk01-.7204e6.jpg</picture4>
+  </item>
+  <item>
+    <id>195.24.PK02</id>
+    <code>195.24.PK02</code>
+    <label>YUMA PARA KASASI KÜÇÜK BOY 200x310x200 YM-801-S</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA PARA KASASI KÜÇÜK BOY 200x310x200 YM-801-S</h2>
+<ul>
+<li> Yükseklik: 20 cm</li>
+<li> Renk: Siyah</li>
+<li> Şifreli</li>
+<li> Yükseklik: 20 cm</li>
+<li> Genişlik: 31 cm</li>
+<li> Derinlik: 20 cm</li>
+<li> Kapı Kalınlığı: 3 mm</li>
+<li> Gövde Kalınlığı: 1 mm</li>
+<li> Ağırlık: 4,3 kg</li>
+<li> YM-801-S</li>
+<li> Montaj Yeri Duvara ve zemine monte edilebilir. İç Kısım Koruyucu zemin dahil.</li>
+<li> Şarj: 4x1.5 V AA pil ile çalıştırılabilir.</li>
+<li> Elektronik Küçük Boy Kasa özel eşyalarınızı güvenli bir şekilde saklamanızı sağlar.</li>
+<li>KASAYI AÇMA: ATANAN SIFREYI VEYA MASTER SIFREYI GIRIN, “*” veya “#” TUSLARINDAN BIRINE BASIN, MANDALI SAGA CEVIRIN, KAPIYI ACIN</li>
+<li>KASAYI KILITLEME: KAPIYI KAPATIN, MANDALI SOLA CEVIRIN, KILITLEME SURGULERI KASAYI KILITLER.</li>
+<li>MONTAJ TALİMATLARI</li>
+<li>KASANIZ İÇİN UYGUN BİR YER BELİRLEYİN</li>
+<li>KASAYI BOŞALTIN, HALISINI ÇIKARIN</li>
+<li>KASANIN ALTINDAKİ VEYA  ARKASINDAKİ VİDA  DELİKLERİNDEN TABANA VEYA DUVARA SABİTLEMEK-DELMEK İÇİN İŞARETLEYİN.</li>
+<li>5.  KASAYI YERİNE KOYUN VE DELİKLERİNİZE VİDALAYIN.</li>
+<li>NOT: MONTAJ TEDBİRLERİ VE MASRAFLARI ALICIYA AİTTİR.</li>
+<li>KASAYI DIŞAYI ALIN, İŞARETLEDİĞ İMİZ YERLERİ UVGUN ALETLERLE VE ÖLÇÜLERDE DELİN.</li>
+<li>İTHAL ÜRÜN </li>
+<li><u><span style='"color:#FF0000"'>ÖNEMLİ: LÜTFEN RESETLEME ANAHTARINI KASANIN İÇİNE KOYMAYIN VE UNUTMAYIN</span> </u></li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>1860.00</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999034</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/19524pk02-.646cc2.jpeg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/19524pk02-.cd8565.jpeg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/19524pk02-.8c2e89.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/19524pk02-.1ff4ac.jpg</picture4>
+  </item>
+  <item>
+    <id>195.24.PK03</id>
+    <code>195.24.PK03</code>
+    <label>YUMA PARA KASASI ORTA BOY 250x350x250 YM-801-M</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA PARA KASASI ORTA BOY 250x350x250 YM-801-M</h2>
+<ul>
+<li>
+<p>Ev, ofis ve otel gibi alanlar için güvenliğinizi bir üst seviyeye taşıyan Yuma YM-802-M, hem elektronik şifreli hem de anahtarlı kullanım imkânı sunar. Laptop tipi tasarımı sayesinde kompakt yapısıyla hem yer kaplamaz hem de önemli eşyalarınızı rahatça muhafaza eder.</p>
+<h4>Öne Çıkan Özellikler:</h4>
+</li>
+<li>
+<p>2. Şifre (Master Kod) ile ekstra güvenlik</p>
+</li>
+<li>
+<p>3 adet anahtar ile yedekli kullanım imkânı</p>
+</li>
+<li>
+<p>Elektronik şifre paneli ve manuel açma özelliği</p>
+</li>
+<li>
+<p>2 yıl garantili güvenilir yapı</p>
+</li>
+<li>
+<p>Yükseklik: 20 cm</p>
+</li>
+<li>
+<p>Genişlik: 42 cm</p>
+</li>
+<li>
+<p>Derinlik: 37 cm</p>
+</li>
+<li>
+<p>Ağırlık: 10,2 kg</p>
+</li>
+<li>
+<p>Kapak Kalınlığı: 4 mm</p>
+</li>
+<li>
+<p>Gövde Kalınlığı: 1 mm</p>
+</li>
+<li>
+<p>Tür: Şifreli / Anahtarlı</p>
+</li>
+<li>
+<p>Stok Durumu: 50 adetten az</p>
+</li>
+<li>
+<p>Garanti Süresi: 24 Ay</p>
+</li>
+<li>
+<p>Yuma Çelik Kasa, hem ev hem profesyonel alanlarda değerli eşyalarınızı korumanız için güvenli ve pratik bir çözümdür.</p>
+</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>2418.00</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999035</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/19524pk03-a17da.bdb399.jpeg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/19524pk03-81973.727cf8.jpeg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/19524pk02-2d352.3d443b.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/19524pk03-26227.896cb1.jpg</picture4>
+  </item>
+  <item>
+    <id>195.24.PK04</id>
+    <code>195.24.PK04</code>
+    <label>YUMA PARA KASASI (LAPTOP) 200x420x370 YM-802-M</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA PARA KASASI (LAPTOP) 200x420x370 YM-802-M</h2>
+<ul>
+<li>KASAYI AÇMA: ATANAN SIFREYI VEYA MASTER SIFREYI GIRIN, “*” veya “#” TUSLARINDAN BIRINE BASIN, MANDALI SAGA CEVIRIN, KAPIYI ACIN</li>
+<li>KASAYI KILITLEME: KAPIYI KAPATIN, MANDALI SOLA CEVIRIN, KILITLEME SURGULERI KASAYI KILITLER.</li>
+<li>KASANIZ İÇİN UYGUN BİR YER BELİRLEYİN</li>
+<li>KASAYI BOŞALTIN, HALISINI ÇIKARIN</li>
+<li>KASANIN ALTINDAKİ  VEYA  ARKASINDAKİ  VİDA  DELİKLERİNDEN TABANA  VEYA  DUVARA SABİTLEMEK-DELMEK İÇİN İŞARETLEYİN.</li>
+<li>KASAYI DIŞAYI ALIN, İŞARETLEDİĞ İMİZ YERLERİ UVGUN ALETLERLE VE ÖLÇÜLERDE DELİN.</li>
+<li>KASAYI YERİNE KOYUN VE DELİKLERİNİZE VİDALAYIN.</li>
+<li>NOT: MONTAJ TEDBİRLERİ VE MASRAFLARI ALICIYA AİTTİR.</li>
+<li>İTHAL ÜRÜN </li>
+<li><span style='"color:#FF0000"'><u>ÖNEMLİ: LÜTFEN RESETLEME ANAHTARINI KASANIN İÇİNE KOYMAYIN VE UNUTMAYIN </u></span></li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>4743.00</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999036</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/11000082890031.5abed6.jpg</picture1>
+  </item>
+  <item>
+    <id>195.24.PK05</id>
+    <code>195.24.PK05</code>
+    <label>YUMA PARA KASASI (LAPTOP) 200x430x350 YM-801-L</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA PARA KASASI (LAPTOP) 200x430x350 YM-801-L</h2>
+<ul>
+<li>Renk: Siyah</li>
+<li>Yükseklik: 20 cm</li>
+<li>Genişlik: 43 cm</li>
+<li>Şifreli • Derinlik: 35 cm</li>
+<li>Montaj Yeri Duvara ve zemine monte edilebilir. İç Kısım Koruyucu zemin dahil.</li>
+<li>Kapı Kalınlığı: 3 mm</li>
+<li>Gövde Kalınlığı: 1,2 mm</li>
+<li>Şarj: 4x1.5 V AA pil ile çalıştırılabilir.</li>
+<li>Elektronik Laptop Boy Kasa özel eşyalarınızı güvenli bir şekilde saklamanızı sağlar.</li>
+<li>Ağırlık: 8 kg </li>
+<li>Montaj Yeri Duvara ve zemine monte edilebilir. İç Kısım Koruyucu zemin dahil.</li>
+<li>Şarj: 4x1.5 V AA pil ile çalıştırılabilir.</li>
+<li>Elektronik Küçük Boy Kasa özel eşyalarınızı güvenli bir şekilde saklamanızı sağlar.</li>
+<li>MONTAJ TALİMATLARI</li>
+<li>KASANIZ İÇİN UYGUN BİR YER BELİRLEYİN</li>
+<li>KASAYI BOŞALTIN, HALISINI ÇIKARIN</li>
+<li>KASANIN ALTINDAKİ VEYA  ARKASINDAKİ VİDA  DELİKLERİNDEN TABANA VEYA DUVARA SABİTLEMEK-DELMEK İÇİN İŞARETLEYİN.</li>
+<li>5.  KASAYI YERİNE KOYUN VE DELİKLERİNİZE VİDALAYIN.</li>
+<li>NOT: MONTAJ TEDBİRLERİ VE MASRAFLARI ALICIYA AİTTİR.</li>
+<li>KASAYI DIŞAYI ALIN, İŞARETLEDİĞ İMİZ YERLERİ UVGUN ALETLERLE VE ÖLÇÜLERDE DELİN.</li>
+<li>İTHAL ÜRÜN </li>
+<li><span style='"color:#FF0000"'><u>ÖNEMLİ: LÜTFEN RESETLEME ANAHTARINI KASANIN İÇİNE KOYMAYIN VE UNUTMAYIN</u></span></li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>2790.00</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999037</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/yuma-801-801.6efa5c.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/yuma-kasa-801-801.03c12d.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/yuma-kasarr.1514f7.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/yuma-801.fe8423.jpg</picture4>
+  </item>
+  <item>
+    <id>199.09.MU28</id>
+    <code>199.09.MU28</code>
+    <label>GFB HSS MATKAP UCU 14.5 MM KOD:1534</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>GFB HSS MATKAP UCU 14.5 MM KOD:1534</h2>
+<ul>
+<li>Yüksek Sıcaklık Direnci: HSS, 600°C'nin üzerindeki uygulama sıcaklıklarında bile kesme kenarını koruyabilir .</li>
+<li>Bu, özellikle yüksek devirlerde veya sert malzemelerde delme yaparken oluşan ısıya karşı dayanıklılık sağlar.</li>
+<li>Aşınma Direnci: Yüksek krom ve nikel konsantrasyonları sayesinde, HSS uçları aşınmaya karşı oldukça dirençlidir .</li>
+<li>Bu da matkap ucunun ömrünü uzatır.</li>
+<li>Yüksek Kopma Mukavemeti: HSS matkap uçları, yüksek kopma mukavemetine sahiptir, bu da onların kırılmaya karşı dayanıklı olmasını sağlar .</li>
+<li>Keskinliğini Koruma Yeteneği: Uzun ömürlü performans kabiliyeti sayesinde, işlem sırasında deformasyona uğramadan keskinliğini korur .</li>
+<li>Kolay Taşlanabilirlik: Üretim sırasında kolayca taşlanabilir olmaları, üretim maliyetlerini düşürür ve özel şekillerin elde edilmesini kolaylaştırır .</li>
+<li>Standart Mandren Uyumluluğu: HSS matkap uçları, standart matkap mandrenleriyle uyumludur ve üç çene ile sıkılarak sabitlenir .</li>
+<li>Tasarım Açıları: Genellikle 118° veya 135° açı ile tasarlanırlar, bu da delme işleminin daha kolay ve hassas olmasını sağlar .</li>
+<li>Kaplamalar: Bazı HSS matkap uçları, performanslarını artırmak için titanyum nitrür (HSS-TiN) gibi kaplamalarla güçlendirilebilir.</li>
+<li>Bu kaplamalar, matkap ucunun sertliğini ve ömrünü artırır.</li>
+<li>Kullanım Alanları</li>
+<li>HSS matkap uçları, çok yönlülükleri sayesinde geniş bir kullanım yelpazesine sahiptir.</li>
+<li>Atölye ve endüstriyel uygulamalar için en iyi çok yönlü matkap uçları olarak kabul edilirler .</li>
+<li>Başlıca kullanım alanları şunlardır:</li>
+<li>Metal Delme: Düşük alaşımlı çelik, döküm, demir ve diğer metaller gibi çeşitli metal türlerinde delik açmak için yaygın olarak kullanılırlar .</li>
+<li>Paslanmaz çelik gibi daha sert metallerde de etkili olabilirler .</li>
+<li>Ahşap Delme: Ahşap malzemelerde de yüksek performans gösterirler.</li>
+<li>Ahşap için 3.000 ila 3.500 RPM hızlarında kullanılabilirler .</li>
+<li>Plastik Delme: Plastik malzemelerde de temiz ve hassas delikler açmak için uygundurlar.</li>
+<li>Genel Amaçlı Kullanım: Evde, atölyelerde ve endüstriyel ortamlarda genel amaçlı delme işlemleri için idealdirler.</li>
+<li>Dayanıklılıkları ve uygun maliyetleri, onları birçok kullanıcı için popüler bir seçim haline getirir</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>142.23</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999038</barcode>
+    <brand>GFB</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/kkfhjkghjkghjkgkjgjh.a80e91.jpg</picture1>
+  </item>
+  <item>
+    <id>199.09.MU30</id>
+    <code>199.09.MU30</code>
+    <label>GFB HSS MATKAP UCU 15.5 MM KOD:1536</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>GFB HSS MATKAP UCU 15.5 MM KOD:1536</h2>
+<ul>
+<li>Yüksek Sıcaklık Direnci: HSS, 600°C'nin üzerindeki uygulama sıcaklıklarında bile kesme kenarını koruyabilir .</li>
+<li>Bu, özellikle yüksek devirlerde veya sert malzemelerde delme yaparken oluşan ısıya karşı dayanıklılık sağlar.</li>
+<li>Aşınma Direnci: Yüksek krom ve nikel konsantrasyonları sayesinde, HSS uçları aşınmaya karşı oldukça dirençlidir .</li>
+<li>Bu da matkap ucunun ömrünü uzatır.</li>
+<li>Yüksek Kopma Mukavemeti: HSS matkap uçları, yüksek kopma mukavemetine sahiptir, bu da onların kırılmaya karşı dayanıklı olmasını sağlar .</li>
+<li>Keskinliğini Koruma Yeteneği: Uzun ömürlü performans kabiliyeti sayesinde, işlem sırasında deformasyona uğramadan keskinliğini korur .</li>
+<li>Kolay Taşlanabilirlik: Üretim sırasında kolayca taşlanabilir olmaları, üretim maliyetlerini düşürür ve özel şekillerin elde edilmesini kolaylaştırır .</li>
+<li>Standart Mandren Uyumluluğu: HSS matkap uçları, standart matkap mandrenleriyle uyumludur ve üç çene ile sıkılarak sabitlenir .</li>
+<li>Tasarım Açıları: Genellikle 118° veya 135° açı ile tasarlanırlar, bu da delme işleminin daha kolay ve hassas olmasını sağlar .</li>
+<li>Kaplamalar: Bazı HSS matkap uçları, performanslarını artırmak için titanyum nitrür (HSS-TiN) gibi kaplamalarla güçlendirilebilir.</li>
+<li>Bu kaplamalar, matkap ucunun sertliğini ve ömrünü artırır.</li>
+<li>Kullanım Alanları</li>
+<li>HSS matkap uçları, çok yönlülükleri sayesinde geniş bir kullanım yelpazesine sahiptir.</li>
+<li>Atölye ve endüstriyel uygulamalar için en iyi çok yönlü matkap uçları olarak kabul edilirler .</li>
+<li>Başlıca kullanım alanları şunlardır:</li>
+<li>Metal Delme: Düşük alaşımlı çelik, döküm, demir ve diğer metaller gibi çeşitli metal türlerinde delik açmak için yaygın olarak kullanılırlar .</li>
+<li>Paslanmaz çelik gibi daha sert metallerde de etkili olabilirler .</li>
+<li>Ahşap Delme: Ahşap malzemelerde de yüksek performans gösterirler.</li>
+<li>Ahşap için 3.000 ila 3.500 RPM hızlarında kullanılabilirler .</li>
+<li>Plastik Delme: Plastik malzemelerde de temiz ve hassas delikler açmak için uygundurlar.</li>
+<li>Genel Amaçlı Kullanım: Evde, atölyelerde ve endüstriyel ortamlarda genel amaçlı delme işlemleri için idealdirler.</li>
+<li>Dayanıklılıkları ve uygun maliyetleri, onları birçok kullanıcı için popüler bir seçim haline getirir</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>167.63</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999039</barcode>
+    <brand>GFB</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/kkfhjkghjkghjkgkjgjh.4c7a8d.jpg</picture1>
+  </item>
+  <item>
+    <id>195.25.SK25</id>
+    <code>195.25.SK25</code>
+    <label>YMK ŞİFRELİ ASMA KİLİT 25 MM YMK-1325</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>Ymk Şifreli Asma Kilit 25 mm Ymk-1325</h2>
+<ul>
+<li>Şifreleme Özelliği: Şifreli asma kilitler, kilit açma işlemi için bir şifrenin girilmesini gerektirir.</li>
+<li>Bu şifre genellikle kullanıcının belirlediği bir kombinasyondan oluşur.</li>
+<li>Dayanıklılık: Genellikle sağlam ve dayanıklı malzemelerden yapılmışlardır, böylece dış etkilere karşı dayanıklıdırlar.</li>
+<li>Güvenlik: Şifreli olmaları nedeniyle, geleneksel anahtarlı kilitlere kıyasla daha yüksek bir güvenlik seviyesi sunarlar.</li>
+<li>Ancak, şifrelerin güçlü ve kolay tahmin edilemeyecek kombinasyonlardan oluşması önemlidir.</li>
+<li>Kullanım Kolaylığı: Şifre girme işlemi genellikle kolaydır ve hızlı bir şekilde gerçekleştirilebilir.</li>
+<li>Çeşitli Modeller: Farklı boyutlarda, şekillerde ve özelliklerde çeşitli modelleri bulunur, böylece farklı kullanım ihtiyaçlarına uyum sağlarlar.</li>
+<li>Uygulama Alanları: Spor salonları, okullar, depolar, valizler, bisikletler gibi çeşitli yerlerde kullanılırlar.</li>
+<li>Evlerde de güvenlik amaçlı olarak kullanılabilirler.</li>
+<li>İTHAL ÜRÜN</li>
+</ul>
+<p> </p>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>44.33</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999040</barcode>
+    <brand>YMK</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/img_9530-.317b2b.jpeg</picture1>
+  </item>
+  <item>
+    <id>195.25.SK32</id>
+    <code>195.25.SK32</code>
+    <label>YMK ŞİFRELİ ASMA KİLİT 32 MM YMK-1332</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>Ymk Şifreli Asma Kilit 32 mm Ymk-1332</h2>
+<ul>
+<li>Şifreleme Özelliği: Şifreli asma kilitler, kilit açma işlemi için bir şifrenin girilmesini gerektirir.</li>
+<li>Bu şifre genellikle kullanıcının belirlediği bir kombinasyondan oluşur.</li>
+<li>Dayanıklılık: Genellikle sağlam ve dayanıklı malzemelerden yapılmışlardır, böylece dış etkilere karşı dayanıklıdırlar.</li>
+<li>Güvenlik: Şifreli olmaları nedeniyle, geleneksel anahtarlı kilitlere kıyasla daha yüksek bir güvenlik seviyesi sunarlar.</li>
+<li>Ancak, şifrelerin güçlü ve kolay tahmin edilemeyecek kombinasyonlardan oluşması önemlidir.</li>
+<li>Kullanım Kolaylığı: Şifre girme işlemi genellikle kolaydır ve hızlı bir şekilde gerçekleştirilebilir.</li>
+<li>Çeşitli Modeller: Farklı boyutlarda, şekillerde ve özelliklerde çeşitli modelleri bulunur, böylece farklı kullanım ihtiyaçlarına uyum sağlarlar.</li>
+<li>Uygulama Alanları: Spor salonları, okullar, depolar, valizler, bisikletler gibi çeşitli yerlerde kullanılırlar.</li>
+<li>Evlerde de güvenlik amaçlı olarak kullanılabilirler.</li>
+<li>İTHAL ÜRÜN</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>50.84</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999041</barcode>
+    <brand>YMK</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/img_9530-.cc4ecd.jpeg</picture1>
+  </item>
+  <item>
+    <id>195.25.SK38</id>
+    <code>195.25.SK38</code>
+    <label>YMK ŞİFRELİ ASMA KİLİT 38 MM YMK-1338</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>Ymk Şifreli Asma Kilit 38 mm Ymk-1338</h2>
+<ul>
+<li>Şifreleme Özelliği: Şifreli asma kilitler, kilit açma işlemi için bir şifrenin girilmesini gerektirir.</li>
+<li>Bu şifre genellikle kullanıcının belirlediği bir kombinasyondan oluşur.</li>
+<li>Dayanıklılık: Genellikle sağlam ve dayanıklı malzemelerden yapılmışlardır, böylece dış etkilere karşı dayanıklıdırlar.</li>
+<li>Güvenlik: Şifreli olmaları nedeniyle, geleneksel anahtarlı kilitlere kıyasla daha yüksek bir güvenlik seviyesi sunarlar.</li>
+<li>Ancak, şifrelerin güçlü ve kolay tahmin edilemeyecek kombinasyonlardan oluşması önemlidir.</li>
+<li>Kullanım Kolaylığı: Şifre girme işlemi genellikle kolaydır ve hızlı bir şekilde gerçekleştirilebilir.</li>
+<li>Çeşitli Modeller: Farklı boyutlarda, şekillerde ve özelliklerde çeşitli modelleri bulunur, böylece farklı kullanım ihtiyaçlarına uyum sağlarlar.</li>
+<li>Uygulama Alanları: Spor salonları, okullar, depolar, valizler, bisikletler gibi çeşitli yerlerde kullanılırlar.</li>
+<li>Evlerde de güvenlik amaçlı olarak kullanılabilirler.</li>
+<li>Renk: Siyah</li>
+<li>Şifre basamak sayısı: 3</li>
+<li>Genişlik (G): 38 mm</li>
+<li>Yükseklik (Y): 60 mm</li>
+<li>Kalınlık (K): 13 mm</li>
+<li>Halka kalınlık (m): 5 mm</li>
+<li>Halka boşluk mesafesi (h): 18 mm</li>
+<li>Şifre değiştirmek için</li>
+<li>Fabrika çıkış şifresi: 0-0-0 dır.</li>
+<li>Şifre numeratörü 0-0-0 da iken kelepçeyi yukarı doğru çekiniz.</li>
+<li>Kelepçeyi 90° çeviriniz ve bastırınız.</li>
+<li>Kelepçeyi basılı tutarak yeni şifrenizin rakamlarını  numaratör üzerinde oluşturunuz.</li>
+<li>Kelepçeyi yukarı çekerek çeviriniz ve kilitleme pozisyonuna getiriniz.</li>
+<li>Kilitlemek için numaratörü çevirerek rakamları karıştırınız.</li>
+<li>İTHAL ÜRÜN</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>62.00</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999042</barcode>
+    <brand>YMK</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/ymk-fsscc.626048.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/ymk-fs.626048.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/ymk-df.0d5c9d.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/dfgdfb-zdfgvbd.553330.jpg</picture4>
+  </item>
+  <item>
+    <id>195.25.SK50</id>
+    <code>195.25.SK50</code>
+    <label>YMK ŞİFRELİ ASMA KİLİT 50 MM YMK-1350</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>Ymk Şifreli Asma Kilit 50 mm Ymk-1350</h2>
+<ul>
+<li>Şifreleme Özelliği: Şifreli asma kilitler, kilit açma işlemi için bir şifrenin girilmesini gerektirir.</li>
+<li>Bu şifre genellikle kullanıcının belirlediği bir kombinasyondan oluşur.</li>
+<li>Dayanıklılık: Genellikle sağlam ve dayanıklı malzemelerden yapılmışlardır, böylece dış etkilere karşı dayanıklıdırlar.</li>
+<li>Güvenlik: Şifreli olmaları nedeniyle, geleneksel anahtarlı kilitlere kıyasla daha yüksek bir güvenlik seviyesi sunarlar.</li>
+<li>Ancak, şifrelerin güçlü ve kolay tahmin edilemeyecek kombinasyonlardan oluşması önemlidir.</li>
+<li>Kullanım Kolaylığı: Şifre girme işlemi genellikle kolaydır ve hızlı bir şekilde gerçekleştirilebilir.</li>
+<li>Çeşitli Modeller: Farklı boyutlarda, şekillerde ve özelliklerde çeşitli modelleri bulunur, böylece farklı kullanım ihtiyaçlarına uyum sağlarlar.</li>
+<li>Uygulama Alanları: Spor salonları, okullar, depolar, valizler, bisikletler gibi çeşitli yerlerde kullanılırlar.</li>
+<li>Evlerde de güvenlik amaçlı olarak kullanılabilirler.</li>
+<li>İTHAL ÜRÜN</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>80.60</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999043</barcode>
+    <brand>YMK</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/img_9527-.65eae5.jpeg</picture1>
+  </item>
+  <item>
+    <id>195.26.PNK1</id>
+    <code>195.26.PNK1</code>
+    <label>YUMA PANİK BAR YM-716</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA PANİK BAR YM-716</h2>
+<ul>
+<li>Panik bar acil çıkış kapılarının üzerinde takılan, acil çıkışlar için kullanılan özel kilit mekanizmasıdır.</li>
+<li>Korozyona ve eskimeye dayanıklıdır.</li>
+<li>Malzeme: Yüksek kaliteli metal veya alüminyum</li>
+<li>Yuma Panik Bar, dayanıklı ve uzun ömürlü malzemelerden üretilmiştir.</li>
+<li>Genellikle metal veya alüminyum gibi sağlam malzemeler kullanılır, bu da ürünün yüksek dayanıklılığını ve güvenilirliğini sağlar.</li>
+<li>Kaplama: Paslanmaz kaplama veya elektrostatik toz boya</li>
+<li>Kaplama, malzemenin korozyona karşı korunmasına yardımcı olur ve estetik bir görünüm sunar.</li>
+<li>Paslanmaz kaplama veya elektrostatik toz boya, ürünün uzun ömürlü olmasını ve estetik olarak hoş görünmesini sağlar.</li>
+<li>Kurulum: Kapı çerçevesine montaj</li>
+<li>Panik bar, kapı çerçevesine monte edilir.</li>
+<li>Kurulum işlemi genellikle uzman kişiler tarafından yapılmalıdır.</li>
+<li>Ürünle birlikte gelen montaj kılavuzu ve bağlantı elemanları, kurulum sürecinde rehberlik eder.</li>
+<li>Uyumluluk: Çeşitli kapı tipleriyle uyumlu</li>
+<li>Yuma Panik Bar, çeşitli kapı tipleriyle uyumlu olacak şekilde tasarlanmıştır.</li>
+<li>Genellikle standart kapı genişlikleri ve yükseklikleri ile uyumlu olup, farklı kapı türlerine uygulanabilir.</li>
+<li>Acil Durum Performansı: Hızlı ve güvenli çıkış sağlar</li>
+<li>Acil durumlarda, panik barın tek bir hareketle kapıyı açabilmesi, kullanıcıların hızlı ve güvenli bir şekilde çıkış yapmasını sağlar.</li>
+<li>Bu, özellikle acil çıkış kapıları için kritik bir özelliktir.</li>
+<li>Bakım: Düzenli kontrol ve temizlik</li>
+<li>Panik barın düzgün çalıştığından emin olmak için düzenli olarak kontrol edilmesi ve temizlenmesi gereklidir.</li>
+<li>Kapak ve mekanizma parçalarının temiz ve işlevsel olduğundan emin olunmalıdır.</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>837.00</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999044</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/panik-bar-yuma-12.e04718.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/yuma-panik-bar-k.f6ddca.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/yuma-panikk.f42e9c.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/yuma-panik-barrr.adcda5.jpg</picture4>
+  </item>
+  <item>
+    <id>195.28.YT01</id>
+    <code>195.28.YT01</code>
+    <label>YUMA TRAJLI KİLİT OVAL YM-600 KARŞILIKLI</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA TRAJLI KİLİT OVAL YM-600</h2>
+<ul>
+<li>Elektrostatik Siyah Boyalı Sac</li>
+<li>Kasa ve Karşılık</li>
+<li>Zamak Kovan</li>
+<li>MS58 Pirinç Silindir</li>
+<li>Üç Turlu Sürgü</li>
+<li>Oval kilitler, daha zarif ve modern bir görünüme sahiptir.</li>
+<li>Şekilleri itibariyle daha az yer kaplar ve belirli estetik beklentilere uygundur.</li>
+<li>İç mekan kapılarında, ofislerde, dolaplarda ve bazı dış mekan uygulamalarında kullanılabilirler.</li>
+<li>Birim Ağırlık  924 gr </li>
+<li>YERLİ ÜRETİM</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>372.00</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999045</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/19503yt01-.f5b4ef.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/1012926906373.9ad06e.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/11000001315824.b2e954.webp</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/31mqgtfuinl_ac.d1c240.jpg</picture4>
+  </item>
+  <item>
+    <id>195.28.YT02</id>
+    <code>195.28.YT02</code>
+    <label>YUMA ELEKTRİKLİ TRAJLI KİLİT YM-609</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA ELEKTRİKLİ TRAJLI KİLİT YM-609</h2>
+<ul>
+<li>Elektrostatik Boyalı Sac ve Alüminyum Kasa</li>
+<li>Şekilleri itibariyle daha az yer kaplar ve belirli estetik beklentilere uygundur.</li>
+<li>İç mekan kapılarında, ofislerde, dolaplarda ve bazı dış mekan uygulamalarında kullanılabilirler.</li>
+<li>Birim Ağırlık  1130 gr</li>
+<li>Yuma Triajlı Kilit uzun silindirli olduğu için özellikle alüminyum kapılarda çok rahat bir şekilde kullanabilirsiniz.</li>
+<li>Barel ölçüsü 70 Milimetre olarak üretilmiştir.</li>
+<li>Elektrik bağlantısı sayesinde otomat ile kapınızı açabilirsiniz.</li>
+<li>Yüksek güvenlikli Yuma hem kilit hemde elektrik bağlantısı olduğundan daire den veya otomattan açabilirsiniz.</li>
+<li>Ekstra bir kapınıza kilit,zincir, ve bas aç gibi ürünler gerektirmez.</li>
+<li>Her kapı kapandığında otomatik olarak kurulur , zincire vs. ihtiyaç yoktur.</li>
+<li>Kapıyı açmak için butona bastığımızda kapı, dışarıdan itilerek sıkıştırılmış olsa bile, bırakıldığında itici dil yardımı ile kolayca açılır.</li>
+<li>İçerisinde bulunan bobin koruma devresi sayesinde kapı kapalı iken butona sadece ilk kez basıldığında bir kez çalışır.</li>
+<li>Butonun takılı kalması veya uzun süreli basılması durumunda etkilenmediği için sessiz çalışarak çevreyi rahatsız etmez</li>
+<li>Model : YM 606</li>
+<li>Renk : Siyah</li>
+<li>Anahtar : 2 Adet</li>
+<li>Ölçü : 70 mm</li>
+<li>MS58 Pirinç Barel ve Silindir</li>
+<li>12 VAC Voltaj</li>
+<li>Zamak Çelik Makara</li>
+<li>YERLİ ÜRETİM</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>1116.00</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999046</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/19503yt02-.48fb19.jpg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/yuma-elektrikli-14cm-tirajli-kilit-apartman-otomatigi-ym-609-.ee5b54.webp</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/yuma-elektrikli-14cm-tirajli-kilit-apartman-otomatigi-ym-609-.1ec1b2.webp</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/yuma-elektrikli-trajli-kilit-ym-609-1077.093b22.webp</picture4>
+  </item>
+  <item>
+    <id>195.28.YT03</id>
+    <code>195.28.YT03</code>
+    <label>YUMA TRAJLI KİLİT KARE KARŞILIKSIZ KOD:602</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA TRAJLI KİLİT KARE (KIRMIZI) YM-602K (612)</h2>
+<ul>
+<li>Elektrostatik Boyalı Sac ve Alüminyum Kasa</li>
+<li>Şekilleri itibariyle daha az yer kaplar ve belirli estetik beklentilere uygundur.</li>
+<li>İç mekan kapılarında, ofislerde, dolaplarda ve bazı dış mekan uygulamalarında kullanılabilirler.</li>
+<li>Birim Ağırlık  924 gr </li>
+<li>Yuma Triajlı Kilit uzun silindirli olduğu için özellikle alüminyum kapılarda çok rahat bir şekilde kullanabilirsiniz.</li>
+<li>Barel ölçüsü 70 Milimetre olarak üretilmiştir.</li>
+<li>Elektrik bağlantısı sayesinde otomat ile kapınızı açabilirsiniz.</li>
+<li>Yüksek güvenlikli Yuma hem kilit hemde elektrik bağlantısı olduğundan daire den veya otomattan açabilirsiniz.</li>
+<li>Ekstra bir kapınıza kilit,zincir, ve bas aç gibi ürünler gerektirmez.</li>
+<li>Her kapı kapandığında otomatik olarak kurulur , zincire vs. ihtiyaç yoktur.</li>
+<li>Kapıyı açmak için butona bastığımızda kapı, dışarıdan itilerek sıkıştırılmış olsa bile, bırakıldığında itici dil yardımı ile kolayca açılır.</li>
+<li>İçerisinde bulunan bobin koruma devresi sayesinde kapı kapalı iken butona sadece ilk kez basıldığında bir kez çalışır.</li>
+<li>Butonun takılı kalması veya uzun süreli basılması durumunda etkilenmediği için sessiz çalışarak çevreyi rahatsız etmez</li>
+<li>Model : YM 606K 612</li>
+<li>Renk : KIRMIZI</li>
+<li>Ölçü : 70 mm</li>
+<li>MS58 Pirinç Silindir</li>
+<li>İki Turlu Sürgü</li>
+<li>YERLİ ÜRETİM</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>350.30</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999047</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/b4fa2f65-1605-44fd-9f5d-6c43e0eba5f.b9c164.jpeg</picture1>
+    <picture2>https://yasarteknik.b-cdn.net/Uploads/urunler/1103048513950.1a1009.jpg</picture2>
+    <picture3>https://yasarteknik.b-cdn.net/Uploads/urunler/21409045_mediu.6463de.jpg</picture3>
+    <picture4>https://yasarteknik.b-cdn.net/Uploads/urunler/9894293_mediu.f549d8.jpg</picture4>
+  </item>
+  <item>
+    <id>195.30.SR25</id>
+    <code>195.30.SR25</code>
+    <label>YUMA SARI KAPLAMA ASMA KİLİT 25 MM YM-1025B</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>YUMA SARI KAPLAMA ASMA KİLİT 25 MM YM-1025B</h2>
+<ul>
+<li>Sfero Döküm Gövde Sfero Döküm Gövde: Sfero döküm, küresel grafit yapısı sayesinde yüksek mukavemete ve dayanıklılığa sahip bir dökme demir türüdür.</li>
+<li>Bu özellik, kilidin darbelere ve aşınmaya karşı dayanıklı olmasını sağlar.</li>
+<li>Koruyucu bir boya veya kaplama ile gri renkte üretilir.</li>
+<li>Ev, iş yeri, depo, garaj kapıları gibi çeşitli kapılarda kullanılabilir.</li>
+<li>Güvenlik gerektiren dolaplar, sandıklar ve diğer eşyalar için idealdir.</li>
+<li>Paslanmaz yapısı sayesinde dış mekanlarda da kullanılabilir.</li>
+<li>Anahtarlı kilit kullanıyorsanız, bir yedek anahtarı güvenli bir yerde saklamak iyi bir fikirdir.</li>
+<li>MS 58 Pirinç Silindir ve Pimler</li>
+<li>Standart Krom Kaplama Çelik Kanca</li>
+<li>Sızdırmazlık Contası</li>
+<li>Birim Ağırlık 50 gr </li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>32.55</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999048</barcode>
+    <brand>YUMA</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/19510sr63-.b522a7.jpg</picture1>
+  </item>
+  <item>
+    <id>197.04.0336</id>
+    <code>197.04.0336</code>
+    <label>SÜRMENE KALIN ÖRGÜLÜ HORTUM 1.1/2&quot; (38 MM)</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>SÜRMENE KALIN ÖRGÜLÜ HORTUM 1.1/2" (38 MM)</h2>
+<ul>
+<li>Açıklama</li>
+<li>Süper bahçe hortumu, bahçenizdeki sulama ihtiyaçlarınızı karşılamak için tasarlanmış yüksek kaliteli bir hortumdur.</li>
+<li>Bu tür hortumlar genellikle dayanıklılık, esneklik ve kolay kullanım özellikleri ile öne çıkar.</li>
+<li>İşte süper bahçe hortumlarının bazı özellikleri ve kullanım alanları:</li>
+<li>Bahçe Sulama: Bitkilerinizi, çiçeklerinizi ve çimenlerinizi sulamak için idealdir.</li>
+<li>Temizlik: Avlu, teras, bahçe yolları ve araç yıkama gibi temizlik işlerinde kullanılabilir.</li>
+<li>Araç Yıkama: Araçlarınızı yıkamak için rahatça kullanabilirsiniz.</li>
+<li>Ev Dışı Aktiviteler: Piknik alanları, kamp alanları ve diğer dış mekan aktiviteleri için taşınabilir bir sulama çözümü sunar.</li>
+<li>Özellikler</li>
+<li>Dayanıklılık: Yüksek kaliteli malzemelerden yapılmış olup, UV ışınlarına, aşınmaya ve delinmelere karşı dayanıklıdır.</li>
+<li>Esneklik: Esnek yapısı sayesinde kolayca bükülebilir ve kıvrılabilir, bu da bahçenizde rahatça kullanmanıza olanak tanır.</li>
+<li>Hortumu kullanmadığınız zamanlarda kıvrılmasını ve zarar görmesini önlemek için düzgün bir şekilde sarın ve serin, kuru bir yerde saklayın.</li>
+<li>Hortumu düzenli olarak temizleyerek içinde biriken kir ve tortuları çıkarın. Bu, su akışını ve hortumun performansını iyileştirir.</li>
+<li>Alt Kat:Şeffaf Pvc /Yüksek Mukavemetli Sentetik İp Desteği</li>
+<li>Üst Kat: Aşınmaya, Ozona Ve Her Türlü Hava Şartlarına Dayanıklı Şeffaf Pvc</li>
+<li>Kullanım Alanı:</li>
+<li>Ev, Park, Bahçe, Sera Ve Tarla Sulamada,Her Türlü Sulama İşlerinde,</li>
+<li>İnşaat Ve Sanayide, Hafif Kimyasal Maddelerin Tahliyesinde</li>
+<li>YERLİ ÜRETİM</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>125.97</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999049</barcode>
+    <brand>SÜRMENE</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/untitled-94.496b92.png</picture1>
+  </item>
+  <item>
+    <id>197.05.0341</id>
+    <code>197.05.0341</code>
+    <label>SÜRMENE EKO ÖRGÜLÜ HORTUM 1/2&quot; (100 MT) (13 MM)</label>
+    <stock>100</stock>
+    <details><![CDATA[<p><h2>SÜRMENE EKO ÖRGÜLÜ HORTUM 1/2" (100 MT) (13 MM)</h2>
+<ul>
+<li>Açıklama</li>
+<li>Süper bahçe hortumu, bahçenizdeki sulama ihtiyaçlarınızı karşılamak için tasarlanmış yüksek kaliteli bir hortumdur.</li>
+<li>Bu tür hortumlar genellikle dayanıklılık, esneklik ve kolay kullanım özellikleri ile öne çıkar.</li>
+<li>İşte süper bahçe hortumlarının bazı özellikleri ve kullanım alanları:</li>
+<li>Bahçe Sulama: Bitkilerinizi, çiçeklerinizi ve çimenlerinizi sulamak için idealdir.</li>
+<li>Temizlik: Avlu, teras, bahçe yolları ve araç yıkama gibi temizlik işlerinde kullanılabilir.</li>
+<li>Araç Yıkama: Araçlarınızı yıkamak için rahatça kullanabilirsiniz.</li>
+<li>Ev Dışı Aktiviteler: Piknik alanları, kamp alanları ve diğer dış mekan aktiviteleri için taşınabilir bir sulama çözümü sunar.</li>
+<li>Özellikler</li>
+<li>Dayanıklılık: Yüksek kaliteli malzemelerden yapılmış olup, UV ışınlarına, aşınmaya ve delinmelere karşı dayanıklıdır.</li>
+<li>Esneklik: Esnek yapısı sayesinde kolayca bükülebilir ve kıvrılabilir, bu da bahçenizde rahatça kullanmanıza olanak tanır.</li>
+<li>Hortumu kullanmadığınız zamanlarda kıvrılmasını ve zarar görmesini önlemek için düzgün bir şekilde sarın ve serin, kuru bir yerde saklayın.</li>
+<li>Hortumu düzenli olarak temizleyerek içinde biriken kir ve tortuları çıkarın. Bu, su akışını ve hortumun performansını iyileştirir.</li>
+<li>Alt Kat:Şeffaf Pvc /Yüksek Mukavemetli Sentetik İp Desteği</li>
+<li>Üst Kat: Aşınmaya, Ozona Ve Her Türlü Hava Şartlarına Dayanıklı Şeffaf Pvc</li>
+<li>Kullanım Alanı:</li>
+<li>Ev, Park, Bahçe, Sera Ve Tarla Sulamada,Her Türlü Sulama İşlerinde,</li>
+<li>İnşaat Ve Sanayide, Hafif Kimyasal Maddelerin Tahliyesinde</li>
+<li>YERLİ ÜRETİM</li>
+</ul>
+</p>]]></details>
+    <currency>TRL</currency>
+    <price1>16.47</price1>
+    <tax>20</tax>
+    <barcode>uyl12092026999050</barcode>
+    <brand>SÜRMENE</brand>
+    <mainCategory>Yasar Teknik</mainCategory>
+    <category>Genel</category>
+    <picture1>https://yasarteknik.b-cdn.net/Uploads/urunler/untitled-93.26ce8a.png</picture1>
+  </item>
 </root>
