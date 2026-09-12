@@ -1,5 +1,6 @@
 import os
 import requests
+from bs4 import BeautifulSoup
 
 BASE_URL = "https://bayi.yasarteknik.com.tr"
 
@@ -21,7 +22,10 @@ session.headers.update({
     "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
 })
 
-# Önce giriş sayfasını aç, oturum çerezi oluşsun
+# ============================================================
+# GİRİŞ
+# ============================================================
+
 ilk = session.get(
     f"{BASE_URL}/Login.asp",
     timeout=30
@@ -45,7 +49,6 @@ login_headers = {
     "X-Requested-With": "XMLHttpRequest"
 }
 
-# Yaşar Teknik'in gerçek AJAX giriş adresi
 login = session.post(
     f"{BASE_URL}/ajax/Login.asp",
     data=login_data,
@@ -58,7 +61,6 @@ print("Login HTTP:", login.status_code)
 print("Login cevap:", repr(login.text.strip()))
 print("Yonlendirme:", login.headers.get("Location"))
 
-# Başarılı girişte sunucu tam olarak "1" döndürüyor
 if login.status_code != 200 or login.text.strip() != "1":
     raise Exception(
         "Yaşar Teknik giriş başarısız. "
@@ -67,7 +69,6 @@ if login.status_code != 200 or login.text.strip() != "1":
 
 print("AJAX GIRIS BASARILI")
 
-# Oturum gerçekten açıldı mı kontrol et
 kontrol = session.get(
     f"{BASE_URL}/Default.asp",
     timeout=30,
@@ -97,7 +98,6 @@ if not basarili:
 print("====================================")
 print("YAŞAR TEKNİK GİRİŞİ TAM BAŞARILI")
 print("====================================")
-from bs4 import BeautifulSoup
 
 # ============================================================
 # ÜRÜN LİSTESİ TESTİ
@@ -124,22 +124,37 @@ urun_sayfasi.raise_for_status()
 print("Ürün sayfası HTTP:", urun_sayfasi.status_code)
 print("Ürün sayfası URL:", urun_sayfasi.url)
 
-soup = BeautifulSoup(urun_sayfasi.text, "html.parser")
+soup = BeautifulSoup(
+    urun_sayfasi.text,
+    "html.parser"
+)
 
-urun_satirlari = soup.select("tr.urun-klavye-satiri")
+urun_satirlari = soup.select(
+    "tr.urun-klavye-satiri"
+)
 
-print("Bulunan ürün sayısı:", len(urun_satirlari))
+print(
+    "Bulunan ürün sayısı:",
+    len(urun_satirlari)
+)
 
 if not urun_satirlari:
-    raise Exception("Ürün listesinde ürün bulunamadı!")
+    raise Exception(
+        "Ürün listesinde ürün bulunamadı!"
+    )
 
 print("====================================")
 print("İLK SAYFADAKİ ÜRÜNLER")
 print("====================================")
 
-for sira, satir in enumerate(urun_satirlari[:20], start=1):
-
-    urun_kodu = satir.get("id", "").strip()
+for sira, satir in enumerate(
+    urun_satirlari[:20],
+    start=1
+):
+    urun_kodu = satir.get(
+        "id",
+        ""
+    ).strip()
 
     hucreler = satir.find_all("td")
 
@@ -160,6 +175,7 @@ for sira, satir in enumerate(urun_satirlari[:20], start=1):
 print("====================================")
 print("ÜRÜN LİSTESİ TESTİ BAŞARILI")
 print("====================================")
+
 # ============================================================
 # TEK ÜRÜN DETAY TESTİ
 # ============================================================
@@ -171,58 +187,73 @@ print("====================================")
 
 ilk_satir = urun_satirlari[0]
 
-urun_kodu = ilk_satir.get("id", "").strip()
+urun_kodu = ilk_satir.get(
+    "id",
+    ""
+).strip()
 
-print("Test ürün kodu:", urun_kodu)
+print(
+    "Test ürün kodu:",
+    urun_kodu
+)
 
-# ------------------------------------------------------------
-# LİSTEDEKİ STOK DURUMUNU OKU
-# ------------------------------------------------------------
+# ============================================================
+# STOK DURUMU
+# ============================================================
 
 stok_durumu = "BILINMIYOR"
+xml_stok = 0
 
-stok_hucreleri = ilk_satir.find_all("td")
+hucreler = ilk_satir.find_all("td")
 
-for hucre in stok_hucreleri:
-    style = hucre.get("style", "").lower()
-    title = hucre.get("title", "").lower()
-    data_title = hucre.get("data-bs-title", "").lower()
+for hucre in hucreler:
+    hucre_html = str(
+        hucre
+    ).lower()
 
-    metin = " ".join([
-        hucre.get_text(" ", strip=True).lower(),
-        title,
-        data_title,
-        style
-    ])
-
-    # Yaşar Teknik renkleri
-    if "#1ab394" in metin or "stokta var" in metin:
+    # YEŞİL = STOKTA VAR
+    if "#1ab394" in hucre_html:
         stok_durumu = "STOKTA_VAR"
+        xml_stok = 100
         break
 
-    if "kritik stok" in metin or "orange" in metin:
+    # TURUNCU = KRİTİK STOK
+    if (
+        "#f8ac59" in hucre_html
+        or "orange" in hucre_html
+        or "kritik stok" in hucre_html
+    ):
         stok_durumu = "KRITIK"
+        xml_stok = 0
         break
 
-    if "stokta yok" in metin or "red" in metin:
+    # KIRMIZI = STOKTA YOK
+    if (
+        "#ed5565" in hucre_html
+        or "red" in hucre_html
+        or "stokta yok" in hucre_html
+    ):
         stok_durumu = "STOKTA_YOK"
+        xml_stok = 0
         break
 
-print("Stok durumu:", stok_durumu)
+print(
+    "Stok durumu:",
+    stok_durumu
+)
 
-# Bizim XML stok kuralımız
-if stok_durumu == "STOKTA_VAR":
-    xml_stok = 100
-else:
-    xml_stok = 0
+print(
+    "XML'e gönderilecek stok:",
+    xml_stok
+)
 
-print("XML'e gönderilecek stok:", xml_stok)
+# ============================================================
+# ÜRÜN DETAY MODALI
+# ============================================================
 
-# ------------------------------------------------------------
-# ÜRÜN DETAY MODALINI ÇEK
-# ------------------------------------------------------------
-
-modal_url = f"{BASE_URL}/ajax/Urun_ModalGoster.asp"
+modal_url = (
+    f"{BASE_URL}/ajax/Urun_ModalGoster.asp"
+)
 
 modal = session.post(
     modal_url,
@@ -238,31 +269,45 @@ modal = session.post(
 
 modal.raise_for_status()
 
-print("Modal HTTP:", modal.status_code)
+print(
+    "Modal HTTP:",
+    modal.status_code
+)
 
-modal_soup = BeautifulSoup(modal.text, "html.parser")
+modal_soup = BeautifulSoup(
+    modal.text,
+    "html.parser"
+)
 
-# ------------------------------------------------------------
+# ============================================================
 # ÜRÜN ADI
-# ------------------------------------------------------------
+# ============================================================
 
 baslik = modal_soup.find("h5")
 
-urun_adi = baslik.get_text(
-    " ",
-    strip=True
-) if baslik else ""
+urun_adi = (
+    baslik.get_text(
+        " ",
+        strip=True
+    )
+    if baslik
+    else ""
+)
 
-print("Ürün adı:", urun_adi)
+print(
+    "Ürün adı:",
+    urun_adi
+)
 
-# ------------------------------------------------------------
-# TABLO ALANLARINI OKU
-# ------------------------------------------------------------
+# ============================================================
+# TABLO ALANLARI
+# ============================================================
 
 alanlar = {}
 
-for satir in modal_soup.select("table tr"):
-
+for satir in modal_soup.select(
+    "table tr"
+):
     th = satir.find("th")
     td = satir.find("td")
 
@@ -279,63 +324,136 @@ for satir in modal_soup.select("table tr"):
         strip=True
     )
 
-    alanlar[alan_adi] = alan_degeri
+    alanlar[
+        alan_adi
+    ] = alan_degeri
 
-print("Ürün kodu:", alanlar.get("Ürün Kodu", ""))
-print("Liste fiyatı:", alanlar.get("Liste Fiyatı", ""))
-print("Bayi fiyatı:", alanlar.get("Bayi Fiyatı", ""))
-print("KDV:", alanlar.get("KDV", ""))
-print("Birim:", alanlar.get("Birim", ""))
+print(
+    "Ürün kodu:",
+    alanlar.get(
+        "Ürün Kodu",
+        ""
+    )
+)
+
+print(
+    "Liste fiyatı:",
+    alanlar.get(
+        "Liste Fiyatı",
+        ""
+    )
+)
+
+print(
+    "Bayi fiyatı:",
+    alanlar.get(
+        "Bayi Fiyatı",
+        ""
+    )
+)
+
+print(
+    "KDV:",
+    alanlar.get(
+        "KDV",
+        ""
+    )
+)
+
+print(
+    "Birim:",
+    alanlar.get(
+        "Birim",
+        ""
+    )
+)
+
 print(
     "Minimum sipariş:",
-    alanlar.get("Minimum Sipariş Miktarı", "")
+    alanlar.get(
+        "Minimum Sipariş Miktarı",
+        ""
+    )
 )
+
 print(
     "Koli miktarı:",
-    alanlar.get("Koli Miktarı", "")
+    alanlar.get(
+        "Koli Miktarı",
+        ""
+    )
 )
+
 print(
     "Paket miktarı:",
-    alanlar.get("Paket Miktarı", "")
+    alanlar.get(
+        "Paket Miktarı",
+        ""
+    )
 )
 
-# ------------------------------------------------------------
+# ============================================================
 # PARA BİRİMİ
-# ------------------------------------------------------------
+# ============================================================
 
-bayi_fiyati_raw = alanlar.get("Bayi Fiyatı", "")
+bayi_fiyati_raw = alanlar.get(
+    "Bayi Fiyatı",
+    ""
+)
 
 para_birimi = "TRL"
 
 fiyat_upper = bayi_fiyati_raw.upper()
 
-if "EUR" in fiyat_upper or "€" in bayi_fiyati_raw:
+if (
+    "EUR" in fiyat_upper
+    or "€" in bayi_fiyati_raw
+):
     para_birimi = "EUR"
 
-elif "USD" in fiyat_upper or "$" in bayi_fiyati_raw:
+elif (
+    "USD" in fiyat_upper
+    or "$" in bayi_fiyati_raw
+):
     para_birimi = "USD"
 
-elif "TL" in fiyat_upper or "₺" in bayi_fiyati_raw:
+elif (
+    "TL" in fiyat_upper
+    or "₺" in bayi_fiyati_raw
+):
     para_birimi = "TRL"
 
-print("Para birimi:", para_birimi)
+print(
+    "Para birimi:",
+    para_birimi
+)
 
-# ------------------------------------------------------------
+# ============================================================
 # GÖRSELLER
-# ------------------------------------------------------------
+# ============================================================
 
 gorseller = []
 
 for img in modal_soup.select(
     "#mainCarousel img"
 ):
+    src = img.get(
+        "src",
+        ""
+    ).strip()
 
-    src = img.get("src", "").strip()
+    if (
+        src
+        and src not in gorseller
+    ):
+        gorseller.append(
+            src
+        )
 
-    if src and src not in gorseller:
-        gorseller.append(src)
-
-print("Görsel sayısı:", len(gorseller))
+print(
+    "Görsel sayısı:",
+    len(gorseller)
+)
 
 for no, url in enumerate(
     gorseller,
@@ -346,16 +464,20 @@ for no, url in enumerate(
         url
     )
 
-# ------------------------------------------------------------
+# ============================================================
 # AÇIKLAMA
-# ------------------------------------------------------------
+# ============================================================
 
 aciklama_alani = modal_soup.select_one(
     "#home"
 )
 
 if aciklama_alani:
-    aciklama_html = aciklama_alani.decode_contents().strip()
+    aciklama_html = (
+        aciklama_alani
+        .decode_contents()
+        .strip()
+    )
 else:
     aciklama_html = ""
 
@@ -367,39 +489,4 @@ print(
 print("")
 print("====================================")
 print("TEK ÜRÜN DETAY TESTİ BAŞARILI")
-print("====================================")
-print("")
-print("====================================")
-print("STOK HTML TESTİ")
-print("====================================")
-
-stok_bulundu = False
-
-for i, hucre in enumerate(ilk_satir.find_all("td"), start=1):
-
-    html = str(hucre)
-
-    html_lower = html.lower()
-
-    if (
-        "1ab394" in html_lower
-        or "stok" in html_lower
-        or "background" in html_lower
-        or "badge" in html_lower
-        or "fa-circle" in html_lower
-    ):
-        print("")
-        print("STOK OLABİLECEK HÜCRE:", i)
-        print(html)
-        stok_bulundu = True
-
-if not stok_bulundu:
-    print("")
-    print("Stok hücresi otomatik bulunamadı.")
-    print("İlk ürünün TÜM HTML satırı:")
-    print(str(ilk_satir))
-
-print("")
-print("====================================")
-print("STOK HTML TESTİ BİTTİ")
 print("====================================")
