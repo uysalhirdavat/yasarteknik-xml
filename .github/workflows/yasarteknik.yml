@@ -38,9 +38,42 @@ jobs:
         run: python yasarteknik_update.py
 
       - name: XML ve ilerlemeyi GitHub'a kaydet
+        shell: bash
         run: |
+          set -e
+
           git config user.name "yasarteknik-bot"
           git config user.email "actions@github.com"
+
+          mkdir -p /tmp/yasar-save
+
+          if [ -f yasarteknik_partial.json ]; then
+            cp yasarteknik_partial.json /tmp/yasar-save/yasarteknik_partial.json
+          fi
+
+          if [ -f barkod_map.json ]; then
+            cp barkod_map.json /tmp/yasar-save/barkod_map.json
+          fi
+
+          if [ -f yasarteknik.xml ]; then
+            cp yasarteknik.xml /tmp/yasar-save/yasarteknik.xml
+          fi
+
+          git fetch origin main
+
+          git reset --hard origin/main
+
+          if [ -f /tmp/yasar-save/yasarteknik_partial.json ]; then
+            cp /tmp/yasar-save/yasarteknik_partial.json yasarteknik_partial.json
+          fi
+
+          if [ -f /tmp/yasar-save/barkod_map.json ]; then
+            cp /tmp/yasar-save/barkod_map.json barkod_map.json
+          fi
+
+          if [ -f /tmp/yasar-save/yasarteknik.xml ]; then
+            cp /tmp/yasar-save/yasarteknik.xml yasarteknik.xml
+          fi
 
           git add -A -- yasarteknik.xml barkod_map.json yasarteknik_partial.json
 
@@ -50,6 +83,4 @@ jobs:
           fi
 
           git commit -m "Yasar Teknik parcali XML guncelleme"
-
-          git pull --rebase origin main
           git push origin main
