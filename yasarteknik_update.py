@@ -97,3 +97,66 @@ if not basarili:
 print("====================================")
 print("YAŞAR TEKNİK GİRİŞİ TAM BAŞARILI")
 print("====================================")
+from bs4 import BeautifulSoup
+
+# ============================================================
+# ÜRÜN LİSTESİ TESTİ
+# ============================================================
+
+urun_url = (
+    f"{BASE_URL}/YeniSiparisGir.asp"
+    "?FView=list"
+    "&FKatID="
+    "&sayfa=1"
+    "&FAdi="
+    "&F=Ara"
+    "&Sirala=Yok"
+)
+
+urun_sayfasi = session.get(
+    urun_url,
+    timeout=30,
+    allow_redirects=True
+)
+
+urun_sayfasi.raise_for_status()
+
+print("Ürün sayfası HTTP:", urun_sayfasi.status_code)
+print("Ürün sayfası URL:", urun_sayfasi.url)
+
+soup = BeautifulSoup(urun_sayfasi.text, "html.parser")
+
+urun_satirlari = soup.select("tr.urun-klavye-satiri")
+
+print("Bulunan ürün sayısı:", len(urun_satirlari))
+
+if not urun_satirlari:
+    raise Exception("Ürün listesinde ürün bulunamadı!")
+
+print("====================================")
+print("İLK SAYFADAKİ ÜRÜNLER")
+print("====================================")
+
+for sira, satir in enumerate(urun_satirlari[:20], start=1):
+
+    urun_kodu = satir.get("id", "").strip()
+
+    hucreler = satir.find_all("td")
+
+    urun_adi = ""
+
+    if len(hucreler) >= 3:
+        urun_adi = hucreler[2].get_text(
+            " ",
+            strip=True
+        )
+
+    print(
+        f"{sira}. "
+        f"Kod: {urun_kodu} | "
+        f"Ürün: {urun_adi}"
+    )
+
+print("====================================")
+print("ÜRÜN LİSTESİ TESTİ BAŞARILI")
+print("====================================")
