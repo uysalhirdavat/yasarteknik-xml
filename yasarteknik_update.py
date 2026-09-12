@@ -12,33 +12,57 @@ if not MUSTERI_KODU or not KULLANICI_KODU or not SIFRE:
 
 session = requests.Session()
 
-login_url = f"{BASE_URL}/Login.asp"
+session.headers.update({
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/152 Safari/537.36",
+    "Referer": f"{BASE_URL}/Login.asp",
+    "Origin": BASE_URL,
+    "X-Requested-With": "XMLHttpRequest"
+})
 
-data = {
+login_data = {
     "KullaniciAdi": MUSTERI_KODU,
     "KullaniciKodu": KULLANICI_KODU,
     "Sifre": SIFRE
 }
 
-response = session.post(
-    login_url,
-    data=data,
-    timeout=30
+login = session.post(
+    f"{BASE_URL}/Login.asp",
+    data=login_data,
+    timeout=30,
+    allow_redirects=True
 )
 
-response.raise_for_status()
+login.raise_for_status()
+
+print("Login HTTP:", login.status_code)
+print("Login cevap:", login.text[:200].strip())
 
 kontrol = session.get(
-    f"{BASE_URL}/YeniSiparisGir.asp",
-    timeout=30
+    f"{BASE_URL}/Default.asp",
+    timeout=30,
+    allow_redirects=True
 )
 
 kontrol.raise_for_status()
 
+print("Kontrol URL:", kontrol.url)
+print("Kontrol HTTP:", kontrol.status_code)
+
 html = kontrol.text.lower()
 
-if "login.asp" in kontrol.url.lower() or "müşteri kodu" in html and "parola" in html:
-    raise Exception("Yaşar Teknik girişi başarısız!")
+# Giriş yapılmış ana sayfada görünen karakteristik alanlar
+basarili = (
+    "toplam borç" in html
+    or "toplam borc" in html
+    or "bekleyen sipariş" in html
+    or "bekleyen siparis" in html
+    or "hızlı ürün ara" in html
+    or "hizli urun ara" in html
+)
+
+if not basarili:
+    print("Kontrol sayfasinin ilk 500 karakteri:")
+    print(kontrol.text[:500])
+    raise Exception("Yaşar Teknik girişi doğrulanamadı!")
 
 print("YAŞAR TEKNİK GİRİŞİ BAŞARILI")
-print("Açılan sayfa:", kontrol.url)
