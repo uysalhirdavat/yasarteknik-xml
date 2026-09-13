@@ -3,7 +3,7 @@ name: Yasar Teknik XML
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "10 */3 * * *"
 
 concurrency:
   group: yasarteknik-xml
