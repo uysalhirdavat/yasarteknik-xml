@@ -16,6 +16,7 @@ jobs:
 
     permissions:
       contents: write
+      actions: write
 
     steps:
       - name: Depoyu al
@@ -47,7 +48,7 @@ jobs:
           print("Baslangictaki hazir urun sayisi:", len(veri))
           PY
           else
-            echo "Partial dosyasi yok."
+            echo "Partial dosyasi yok. Yeni tam tarama basliyor."
           fi
 
       - name: Python kur
@@ -109,8 +110,33 @@ jobs:
 
           if git diff --cached --quiet; then
             echo "Degisiklik yok."
-            exit 0
+          else
+            git commit -m "Yasar Teknik parcali XML guncelleme"
+            git push origin main
           fi
 
-          git commit -m "Yasar Teknik parcali XML guncelleme"
-          git push origin main
+      - name: Sonraki parcayi otomatik baslat
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+
+          git fetch origin main
+          git reset --hard origin/main
+
+          if [ -f yasarteknik_partial.json ]; then
+            echo "Tarama henuz tamamlanmadi."
+            echo "Sonraki 1200 urun otomatik baslatiliyor..."
+
+            sleep 10
+
+            gh workflow run yasarteknik.yml --ref main
+          else
+            echo "======================================"
+            echo "TAM TUR TAMAMLANDI"
+            echo "XML YAYINLANDI"
+            echo "Sonraki parcaya gerek yok."
+            echo "Yeni tur cron zamaninda baslayacak."
+            echo "======================================"
+          fi
