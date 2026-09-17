@@ -119,13 +119,39 @@ def kdv_bul(kdv):
     return m.group(1) if m else "20"
 
 def stok_bul_html(html):
-    html = str(html).lower()
-    if "#1ab394" in html:
-        return "STOKTA_VAR", 100
-    if "#f8ac59" in html or "orange" in html or "kritik stok" in html:
-        return "KRITIK", 0
-    if "#ed5565" in html or "red" in html or "stokta yok" in html:
+    soup = BeautifulSoup(str(html), "html.parser")
+
+    # Yasar Teknik gercek stok renkleri:
+    # #ec4758 = Stokta Yok
+    # #ff7f00 = Kritik Stok
+    # #1ab394 = Stokta Var
+    #
+    # Sadece fa-circle stok ikonlarini kontrol ediyoruz.
+    # Boylece Sepete Ekle gibi baska yesil alanlar stoga karismaz.
+    for ikon in soup.select("i.fa-circle"):
+        style = str(ikon.get("style", "")).replace(" ", "").lower()
+
+        if "#ec4758" in style:
+            return "STOKTA_YOK", 0
+
+        if "#ff7f00" in style:
+            return "KRITIK", 0
+
+        if "#1ab394" in style:
+            return "STOKTA_VAR", 100
+
+    # Yedek kontrol
+    metin = temiz_metin(soup.get_text(" ", strip=True)).lower()
+
+    if "stokta yok" in metin:
         return "STOKTA_YOK", 0
+
+    if "kritik stok" in metin:
+        return "KRITIK", 0
+
+    if "stokta var" in metin:
+        return "STOKTA_VAR", 100
+
     return "BILINMIYOR", None
 
 def json_yaz(path, veri):
