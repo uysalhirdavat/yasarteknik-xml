@@ -12,17 +12,14 @@ BASE_URL = "https://bayi.yasarteknik.com.tr"
 XML_DOSYASI = "yasarteknik.xml"
 GECICI_XML = "yasarteknik.tmp.xml"
 BARKOD_MAP_DOSYASI = "barkod_map.json"
-PARCA_DOSYASI = "yasarteknik_partial.json"
 BARKOD_PREFIX = "uyl12092026999"
 MIN_BEKLENEN_URUN = 8000
 MAX_SAYFA = 300
-PARCA_BOYUTU = int(os.environ.get("YASAR_CHUNK_SIZE", "1200"))
 GET_DENEME = 6
 MODAL_DENEME = 6
 STOK_DENEME = 5
 LISTE_BEKLEME = 0.08
 URUN_BEKLEME = 0.05
-YENIDEN_GIRIS_ARALIGI = 300
 
 MUSTERI_KODU = os.environ.get("YASAR_KULLANICI_ADI")
 KULLANICI_KODU = os.environ.get("YASAR_KULLANICI_KODU")
@@ -373,25 +370,13 @@ print(f"\nTOPLAM BENZERSİZ: {toplam}")
 if toplam < MIN_BEKLENEN_URUN:
     raise Exception(f"Yalnızca {toplam} ürün bulundu; canlı XML değiştirilmedi")
 
-# Önceki parça
+# Tam tarama: her planli calismada tum katalog bastan sona cekilir.
 partial = {}
-if os.path.exists(PARCA_DOSYASI):
-    with open(PARCA_DOSYASI, "r", encoding="utf-8") as f:
-        partial = json.load(f)
-    if not isinstance(partial, dict):
-        raise Exception("Partial dosyası bozuk")
+bu_calismada = kod_listesi
 
-mevcut_kodlar = set(kod_listesi)
-partial = {k: v for k, v in partial.items() if k in mevcut_kodlar}
-hazir_kodlar = set(partial.keys())
-bekleyen = [k for k in kod_listesi if k not in hazir_kodlar]
-bu_calismada = bekleyen[:PARCA_BOYUTU]
-
-print("\n=== PARÇALI İŞLEM ===")
+print("\n=== TAM KATALOG ISLEMI ===")
 print("Toplam:", toplam)
-print("Önceden hazır:", len(hazir_kodlar))
-print("Bekleyen:", len(bekleyen))
-print("Bu run:", len(bu_calismada))
+print("Bu calismada islenecek:", len(bu_calismada))
 
 def stok_ara(urun_kodu):
     for no in range(1, STOK_DENEME + 1):
@@ -480,35 +465,34 @@ def urunu_hazirla(urun_kodu):
 hatalar = []
 for i, kod in enumerate(bu_calismada, start=1):
     try:
-        if i > 1 and i % YENIDEN_GIRIS_ARALIGI == 0:
-            giris_yap()
-            time.sleep(1)
+        # Normalde ayni oturum devam eder.
+        # Oturum gercekten duserse mevcut guvenli_get/guvenli_modal tekrar giris yapabilir.
         partial[kod] = urunu_hazirla(kod)
+
         if i == 1 or i % 20 == 0 or i == len(bu_calismada):
             u = partial[kod]
-            print(f"{len(hazir_kodlar)+i}/{toplam} | {kod} | {u['stok_durumu']}->{u['stock']} | {u['price1']} {u['currency']}")
+            print(f"{i}/{toplam} | {kod} | {u['stok_durumu']}->{u['stock']} | {u['price1']} {u['currency']}")
+
         if i % 100 == 0:
-            json_yaz(PARCA_DOSYASI, partial)
             json_yaz(BARKOD_MAP_DOSYASI, barkod_map)
+
         time.sleep(URUN_BEKLEME)
+
     except Exception as e:
         hata = f"{kod} | {e}"
         hatalar.append(hata)
         print("HATA:", hata)
 
-json_yaz(PARCA_DOSYASI, partial)
 json_yaz(BARKOD_MAP_DOSYASI, barkod_map)
 
-hazir_son = sum(1 for k in kod_listesi if k in partial)
-kalan = toplam - hazir_son
-print("\n=== PARÇA TAMAMLANDI ===")
-print("Hazır:", hazir_son)
-print("Kalan:", kalan)
-print("Bu run hata:", len(hatalar))
+print("\n=== TAM TARAMA BITTI ===")
+print("Basarili:", len(partial))
+print("Hata:", len(hatalar))
 
-if kalan > 0:
-    print("XML henüz yayınlanmadı. İş akışını tekrar çalıştır.")
-    raise SystemExit(0)
+# Bir urun bile eksikse mevcut canli XML'i degistirme.
+if hatalar or len(partial) != toplam:
+    print("Eksik/hata oldugu icin mevcut canli XML korunuyor.")
+    raise SystemExit(1)
 
 # Final XML
 urunler = [partial[k] for k in kod_listesi]
@@ -541,8 +525,6 @@ if xml_sayisi != toplam or xml_sayisi < MIN_BEKLENEN_URUN:
     raise Exception(f"XML doğrulama hatası: {xml_sayisi}/{toplam}")
 
 os.replace(GECICI_XML, XML_DOSYASI)
-if os.path.exists(PARCA_DOSYASI):
-    os.remove(PARCA_DOSYASI)
 json_yaz(BARKOD_MAP_DOSYASI, barkod_map)
 
 stokta_var = sum(1 for u in urunler if u['stock'] == 100)
