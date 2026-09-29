@@ -3,7 +3,10 @@ name: Yasar Teknik XML
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */2 * * *"
+    # GitHub Actions cron UTC kullanir.
+    # 06:00 UTC = 09:00 Turkiye
+    # 15:00 UTC = 18:00 Turkiye
+    - cron: "0 6,15 * * *"
 
 concurrency:
   group: yasarteknik-xml
@@ -12,11 +15,10 @@ concurrency:
 jobs:
   update-xml:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 180
 
     permissions:
       contents: write
-      actions: write
 
     steps:
       - name: Depoyu al
@@ -29,27 +31,12 @@ jobs:
         shell: bash
         run: |
           set -e
-
           git fetch origin main
           git checkout main
           git reset --hard origin/main
 
           echo "Calisma baslangic commit:"
           git log -1 --oneline
-
-          if [ -f yasarteknik_partial.json ]; then
-            echo "Partial dosyasi bulundu."
-            python - <<'PY'
-          import json
-
-          with open("yasarteknik_partial.json", "r", encoding="utf-8") as f:
-              veri = json.load(f)
-
-          print("Baslangictaki hazir urun sayisi:", len(veri))
-          PY
-          else
-            echo "Partial dosyasi yok. Yeni tam tarama basliyor."
-          fi
 
       - name: Python kur
         uses: actions/setup-python@v5
@@ -59,15 +46,14 @@ jobs:
       - name: Gerekli kutuphaneleri yukle
         run: pip install requests beautifulsoup4
 
-      - name: Yasar Teknik XML parcali guncelle
+      - name: Yasar Teknik tum katalogu guncelle
         env:
           YASAR_KULLANICI_ADI: ${{ secrets.YASAR_KULLANICI_ADI }}
           YASAR_KULLANICI_KODU: ${{ secrets.YASAR_KULLANICI_KODU }}
           YASAR_SIFRE: ${{ secrets.YASAR_SIFRE }}
-          YASAR_CHUNK_SIZE: "1200"
         run: python yasarteknik_update.py
 
-      - name: XML ve ilerlemeyi GitHub'a kaydet
+      - name: XML ve barkod haritasini GitHub'a kaydet
         shell: bash
         run: |
           set -e
@@ -76,67 +62,20 @@ jobs:
           git config user.email "actions@github.com"
 
           mkdir -p /tmp/yasar-save
-
-          if [ -f yasarteknik_partial.json ]; then
-            cp yasarteknik_partial.json /tmp/yasar-save/yasarteknik_partial.json
-          fi
-
-          if [ -f barkod_map.json ]; then
-            cp barkod_map.json /tmp/yasar-save/barkod_map.json
-          fi
-
-          if [ -f yasarteknik.xml ]; then
-            cp yasarteknik.xml /tmp/yasar-save/yasarteknik.xml
-          fi
+          cp yasarteknik.xml /tmp/yasar-save/yasarteknik.xml
+          cp barkod_map.json /tmp/yasar-save/barkod_map.json
 
           git fetch origin main
           git reset --hard origin/main
 
-          if [ -f /tmp/yasar-save/yasarteknik_partial.json ]; then
-            cp /tmp/yasar-save/yasarteknik_partial.json yasarteknik_partial.json
-          else
-            rm -f yasarteknik_partial.json
-          fi
+          cp /tmp/yasar-save/yasarteknik.xml yasarteknik.xml
+          cp /tmp/yasar-save/barkod_map.json barkod_map.json
 
-          if [ -f /tmp/yasar-save/barkod_map.json ]; then
-            cp /tmp/yasar-save/barkod_map.json barkod_map.json
-          fi
-
-          if [ -f /tmp/yasar-save/yasarteknik.xml ]; then
-            cp /tmp/yasar-save/yasarteknik.xml yasarteknik.xml
-          fi
-
-          git add -A -- yasarteknik.xml barkod_map.json yasarteknik_partial.json
+          git add -- yasarteknik.xml barkod_map.json
 
           if git diff --cached --quiet; then
             echo "Degisiklik yok."
           else
-            git commit -m "Yasar Teknik parcali XML guncelleme"
+            git commit -m "Yasar Teknik XML guncelleme"
             git push origin main
-          fi
-
-      - name: Sonraki parcayi otomatik baslat
-        shell: bash
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -e
-
-          git fetch origin main
-          git reset --hard origin/main
-
-          if [ -f yasarteknik_partial.json ]; then
-            echo "Tarama henuz tamamlanmadi."
-            echo "Sonraki 1200 urun otomatik baslatiliyor..."
-
-            sleep 10
-
-            gh workflow run yasarteknik.yml --ref main
-          else
-            echo "======================================"
-            echo "TAM TUR TAMAMLANDI"
-            echo "XML YAYINLANDI"
-            echo "Sonraki parcaya gerek yok."
-            echo "Yeni tur cron zamaninda baslayacak."
-            echo "======================================"
           fi
